@@ -2,20 +2,41 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
+    fontFamily: {
+      sans: ["Montserrat", "Inter", "ui-sans-serif", "system-ui"],
+      serif: ["ui-serif", "Georgia"],
+      mono: ["ui-monospace", "SFMono-Regular"],
+      display: ["Inter"],
+      body: ['"Montserrat"'],
+    },
     container: {
-      center: true,
-      padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        xl: "1240px",
       },
     },
     extend: {
+      dropShadow: {
+      "4xl": [
+        "2px 2px 0px rgba(255, 255, 255, 1)",
+        "-2px -2px 0px rgba(255, 255, 255, 1)",
+        "-2px 2px 0px rgba(255, 255, 255, 1)",
+        "2px -2px 0px rgba(255, 255, 255, 1)",
+      ],
+    },
+      screens: {
+        xs: "425px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -73,4 +94,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

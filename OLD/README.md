@@ -1,2 +1,0 @@
-# SketchUp portfolio
-  portfolio

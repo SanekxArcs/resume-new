@@ -1,2 +1,0 @@
-"ese strict";
-
