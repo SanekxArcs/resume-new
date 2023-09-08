@@ -89,14 +89,14 @@ const Training = () => {
   return (
     <section
       id="certification"
-      className="scroll-m-16  cursor-default select-none"
+      className="cursor-default select-none scroll-m-16"
     >
       <h3 className="flex items-center">
         <Brain className="mr-2 " />
         Certificates
       </h3>
       <Separator className="mb-4" />
-      <div className="grid gap-5 print:grid-cols-2">
+      <div className="grid gap-5">
         {courses.map((course, index) => (
           <div
             key={index}
@@ -106,7 +106,7 @@ const Training = () => {
           >
             <h4>{course.title}</h4>
             <h5>{course.platform}</h5>
-            <div className="flex gap-1 flex-wrap pr-10 py-3">
+            <div className="flex flex-wrap gap-1 py-3 pr-10">
               {course.badges.map((element, index) => {
                 return (
                   <Badge variant="secondary" key={index}>

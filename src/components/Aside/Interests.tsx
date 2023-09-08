@@ -3,8 +3,13 @@ import { BrainCircuit } from "lucide-react"
 const Interests = () => {
   return (
     <>
-      <div className=" break-before-auto print:hidden cursor-default select-none">
-        <h3 className="flex">
+      <div
+        className="cursor-default select-none break-before-auto print:hidden"
+      >
+        <h3
+          className="flex"
+          title="Show my relevant interests, have many other"
+        >
           <BrainCircuit className="mr-2" />
           Interests
         </h3>

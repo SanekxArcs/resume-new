@@ -22,17 +22,19 @@ const Aside = () => {
         className="col-span-4 pr-10"
       >
         <ProfilePhoto />
-        <div className=" gap-5  flex flex-col h-fit sticky top-20">
+        <div className="sticky flex flex-col gap-5 h-fit top-20">
           <Contacts />
+          <Separator />
+          <Links />
+          <Separator />
+          <Language />
           <Separator />
           <TechSkills />
           <Separator />
           <SoftSkills />
           <Separator />
-          <Language />
-          <Separator />
-          <Links />
-          <Separator />
+          
+          
           <Interests />
           <Separator className="print:hidden"/>
           <Vcard />

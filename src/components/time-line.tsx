@@ -1,12 +1,11 @@
 import { Briefcase } from 'lucide-react';
 
-
 const TimeLine = () => {
   return (
     <>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <li className="mb-10 ml-6">
-          <span className="absolute flex items-center justify-center w-6 h-6 bg-primary/30 rounded-full -left-3 ring-8 ring-white ">
+          <span className="absolute flex items-center justify-center w-6 h-6 rounded-full bg-primary/30 -left-3 ring-8 ring-white ">
             <Briefcase className="w-3 h-3" />
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">

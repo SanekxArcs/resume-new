@@ -1,6 +1,9 @@
 import { Map, Banknote, AtSign, Phone, MapPin, Contact2, } from "lucide-react";
 import { Button } from "../ui/button";
+
+
 const Contacts = () => {
+  
   return (
     <>
       <div id="contacts">
@@ -10,21 +13,15 @@ const Contacts = () => {
         </h3>
         <div className="flex flex-col items-start justify-start">
           <Button asChild variant="ghost" size="sm">
-            <a href="mailto:oleksandr.dzisiak@gmail.com">
+            <a href="mailto:oleksandr.dzisiak@gmail.com" title="Email for work">
               <AtSign className="mr-2" />
               oleksandr.dzisiak@gmail.com
             </a>
           </Button>
           <Button asChild variant="ghost" size="sm">
-            <a href="tel:+48 735 145 620">
+            <a href="tel:+48 735 145 620" title="My work number">
               <Phone className="mr-2" />
               +48 735 145 620
-            </a>
-          </Button>
-          <Button asChild variant="ghost" size="sm">
-            <a href="tel:+380 961 016 968">
-              <Phone className="mr-2" />
-              +380 961 016 968
             </a>
           </Button>
           <Button asChild variant="ghost" size="sm">
@@ -32,19 +29,20 @@ const Contacts = () => {
               href="https://goo.gl/maps/FBqjq7pZKCouV9hr6"
               target="_blank"
               rel="noopener noreferrer"
+              title="My location"
             >
               <MapPin className="mr-2" />
               Poland, Warsaw
             </a>
           </Button>
           <Button asChild variant="ghost" size="sm">
-            <p className="cursor-default select-none">
+            <p className="cursor-default select-none" title="This means that if work has good salary i will think about relocation">
               <Map className="mr-2" />
               Ready for relocation
             </p>
           </Button>
           <Button asChild variant="ghost" size="sm">
-            <p className="cursor-default select-none">
+            <p className="cursor-default select-none" title="I ready for any type of legal work">
               <Banknote className="mr-2" />
               B2B / Permanent
             </p>

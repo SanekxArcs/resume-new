@@ -1,4 +1,3 @@
-
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
 import { Contact, Menu, Save } from "lucide-react";
@@ -12,7 +11,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-
 
 const Header = () => {
 
@@ -28,7 +26,7 @@ const Header = () => {
           <div className="flex gap-2">
             <img className="w-10 h-10" src={profilePhoto} alt="profilePhoto" />
 
-            <div className="flex flex-col justify-center items-start">
+            <div className="flex flex-col items-start justify-center">
               <h1 className="font-black">Oleksandr Dzisiak</h1>
               <h2 className="text-sm text-muted-foreground">
                 Frontend Developer
@@ -40,7 +38,7 @@ const Header = () => {
               <Button
                 variant="outline"
                 asChild
-                className="w-full justify-start"
+                className="justify-start w-full"
               >
                 <a
                   href="./../assets/Oleksandr Dzisiak - Frontend CV.pdf"
@@ -67,7 +65,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a href="#contacts">
                       <Contact className="w-4 h-4 mr-2" />
@@ -79,7 +77,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a href="#projects">
                       <Save className="w-4 h-4 mr-2" />
@@ -91,7 +89,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a href="#work">
                       <Save className="w-4 h-4 mr-2" />
@@ -103,7 +101,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a href="#education">
                       <Save className="w-4 h-4 mr-2" />
@@ -115,7 +113,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a href="#certification">
                       <Save className="w-4 h-4 mr-2" />
@@ -127,7 +125,7 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="w-full justify-start"
+                    className="justify-start w-full"
                   >
                     <a
                       href="./../assets/Oleksandr Dzisiak - Frontend CV.pdf"

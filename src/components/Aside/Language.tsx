@@ -11,7 +11,7 @@ const Language = () => {
   return (
     <>
       <div className="select-none break-before-auto">
-        <h3 className="flex">
+        <h3 className="flex" title="Languages what i know. P.S. hover it">
           <Languages className="mr-2" />
           Languages
         </h3>
@@ -22,8 +22,8 @@ const Language = () => {
                 <div className="flex flex-row items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="1.4em"
+                    height="1.4em"
                     viewBox="0 0 512 512"
                   >
                     <clipPath id="svgIDa">
@@ -48,7 +48,7 @@ const Language = () => {
                       ></path>
                     </g>
                   </svg>
-                  English: <span className="font-semibold">C1</span>
+                  English: <span className="font-semibold">B2</span>
                 </div>
               </TooltipTrigger>
               <TooltipContent>
@@ -63,8 +63,8 @@ const Language = () => {
                 <div className="flex flex-row items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="1.4em"
+                    height="1.4em"
                     viewBox="0 0 512 512"
                   >
                     <mask id="circleFlagsPl0">
@@ -88,11 +88,14 @@ const Language = () => {
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-          <div className="flex flex-row items-center gap-2">
+          <div
+            className="flex flex-row items-center gap-2"
+            title="I was born in Ukraine "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="1em"
-              height="1em"
+              width="1.4em"
+              height="1.4em"
               viewBox="0 0 512 512"
             >
               <mask id="circleFlagsUa0">

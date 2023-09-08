@@ -4,6 +4,7 @@ import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Training from "./Training";
 import MainHead from "./main-header";
+import Projects from "./Projects";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
         className="flex flex-col col-span-8 gap-10 pl-10"
       >
         <MainHead/>
+        <Projects/>
         <WorkExperience />
         <Education />
         <Training />

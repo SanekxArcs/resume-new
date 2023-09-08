@@ -6,18 +6,22 @@ const Vcard = () => {
   return (
     <>
       <div className="">
-        <h3 className="flex cursor-default select-none">
+        <h3
+          className="flex cursor-default select-none"
+          title="Scan with your Phone and it automatically add my contact to you phone"
+        >
           <QrCode className="mr-2" />
           VCARD
         </h3>
         <a
-          className="cursor-pointer"
+          className="cursor-pointer "
           href="https://qr-coge-vcard-generator.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
+          title="Scan with your Phone and it automatically add my contact to you phone"
         >
           <img
-            className="w-64 rounded-md ring-2 ring-primary shadow-md h-64"
+            className="w-64 h-64 mx-3 rounded-md shadow-md ring-2 ring-primary"
             src={qrCode}
             alt="VCARD - QrCode"
           />
