@@ -126,7 +126,7 @@ const WorkExperienceElements = workExperienceData.map((elem, index) => {
        <Briefcase className="w-3 h-3" />
      </span>
      {elem.jobTitle2 ? (
-       <h4 className="sticky flex items-center text-lg font-semibold text-primary top-16 backdrop-blur-md">
+       <h4 className="sticky flex flex-wrap items-center text-lg font-semibold text-primary top-16 backdrop-blur-md">
          <span className="text-sm font-light">&nbsp;from&nbsp;</span>
          {elem.jobTitle}
          <span className="text-sm font-light">&nbsp;to&nbsp;</span>

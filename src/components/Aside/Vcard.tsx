@@ -5,7 +5,7 @@ import qrCode from './../../assets/qr-code (1).webp'
 const Vcard = () => {
   return (
     <>
-      <div className="">
+      <div className="hidden lg:block">
         <h3
           className="flex cursor-default select-none"
           title="Scan with your Phone and it automatically add my contact to you phone"

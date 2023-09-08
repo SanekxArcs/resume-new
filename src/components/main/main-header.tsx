@@ -5,14 +5,15 @@ import { Link } from "lucide-react";
 const MainHead = () => {
   return (
     <>
-      <div id="top" className="cursor-default select-none ">
-        <motion.h1 className="text-6xl font-medium">
+      <div id="top" className="pt-10 cursor-default select-none lg:pt-0">
+        <p className="lg:hidden">About me:</p>
+        <motion.h1 className="text-5xl font-medium lg:text-6xl">
           Oleksandr Dzisiak
         </motion.h1>
-        <motion.h2 className="mb-4 text-4xl text-accent-foreground" title="Also i have many ">
+        <motion.h2 className="mb-4 text-2xl lg:text-4xl text-accent-foreground" title="Also i have many ">
           Frontend developer
         </motion.h2>
-        <motion.p className="text-lg">
+        <motion.p className="text-base lg:text-lg">
           I am a highly motivated professional with a passion for
           creating visually appealing and user-friendly web applications with
           HTML, CSS and functionality of web app with JavaScript 

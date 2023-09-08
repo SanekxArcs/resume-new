@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
-import { Contact, Menu, Save } from "lucide-react";
+import { Brain, Building2, Contact, FileCode2, Menu, Save, School } from "lucide-react";
 import profilePhoto from "./../assets/ProfilePhoto.webp";
 import { ModeToggle } from "./mode-toggle";
 import {
@@ -80,7 +80,7 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#projects">
-                      <Save className="w-4 h-4 mr-2" />
+                      <FileCode2 className="w-4 h-4 mr-2" />
                       Projects
                     </a>
                   </Button>
@@ -92,7 +92,7 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#work">
-                      <Save className="w-4 h-4 mr-2" />
+                      <Building2 className="w-4 h-4 mr-2" />
                       Work experience
                     </a>
                   </Button>
@@ -104,7 +104,7 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#education">
-                      <Save className="w-4 h-4 mr-2" />
+                      <School className="w-4 h-4 mr-2" />
                       Education
                     </a>
                   </Button>
@@ -116,7 +116,7 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#certification">
-                      <Save className="w-4 h-4 mr-2" />
+                      <Brain className="w-4 h-4 mr-2" />
                       Certification
                     </a>
                   </Button>
@@ -125,17 +125,25 @@ const Header = () => {
                   <Button
                     variant="outline"
                     asChild
-                    className="justify-start w-full"
+                    className="justify-start w-full sm:hidden"
                   >
                     <a
                       href="./../assets/Oleksandr Dzisiak - Frontend CV.pdf"
                       download
                     >
                       <Save className="w-4 h-4 mr-2" />
-                      Save PDF
+                      Save CV in PDF
                     </a>
                   </Button>
                 </DropdownMenuItem>
+                <div className="sm:hidden">
+                  <DropdownMenuLabel>Settings</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem className="flex w-full gap-2">
+                  <ModeToggle />Change theme
+                </DropdownMenuItem>
+                </div>
+                
               </DropdownMenuContent>
             </DropdownMenu>
           </div>

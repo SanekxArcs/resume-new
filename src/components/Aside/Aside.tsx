@@ -19,7 +19,7 @@ const Aside = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2, delay: 0.5 }}
-        className="col-span-4 pr-10"
+        className="col-span-4 px-4 lg:px-0 lg:pr-10"
       >
         <ProfilePhoto />
         <div className="sticky flex flex-col gap-5 h-fit top-20">
