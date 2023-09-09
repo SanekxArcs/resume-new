@@ -24,7 +24,7 @@ const Header = () => {
           className={`container print:hidden mx-auto px-4 sticky top-2  rounded-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
         >
           <div className="flex gap-2">
-            <div className="mx-auto my-2 overflow-hidden transition-all duration-700 rounded-full group w-52 h-52 x-auto lg:h-10 lg:w-10 drop-shadow-5xl hover:rounded-md bg-gradient-to-br from-primary/40 to-primary/70">
+            <div className="mx-auto my-2 overflow-hidden transition-all duration-700 rounded-full group x-auto h-10 w-10 drop-shadow-5xl hover:rounded-md bg-gradient-to-br from-primary/40 to-primary/70">
               <img
                 className="absolute top-0 left-0 w-10 h-10 drop-shadow-5xl"
                 src={myPhoto}
