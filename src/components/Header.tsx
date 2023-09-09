@@ -20,7 +20,7 @@ const Header = () => {
         <motion.header
           initial={{ opacity: 0, scale: 0.3, y: -200 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.6 }}
+          transition={{ duration: 1 }}
           className={`container print:hidden mx-auto px-4 sticky top-2 m-2 rounded-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
         >
           <div className="flex gap-2">

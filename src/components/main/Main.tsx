@@ -12,7 +12,7 @@ const Main = () => {
       <motion.main
         initial={{ opacity: 0}}
         animate={{ opacity: 1}}
-        transition={{ duration: 2, delay: 0.5 }}
+        transition={{ duration: 1 }}
         className="flex flex-col col-span-4 gap-10 px-4 overflow-hidden lg:px-0 lg:pl-10 lg:col-span-8"
       >
         <MainHead/>

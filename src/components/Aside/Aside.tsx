@@ -18,7 +18,7 @@ const Aside = () => {
       <motion.aside
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.5 }}
+        transition={{ duration: 1 }}
         className="col-span-4 px-4 lg:px-0 lg:pr-10"
       >
         <ProfilePhoto />
