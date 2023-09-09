@@ -11,7 +11,10 @@ const Language = () => {
   return (
     <>
       <div className="select-none break-before-auto">
-        <h3 className="flex" title="Languages what i know. P.S. hover it">
+        <h3
+          className="flex items-center justify-start "
+          title="Languages what i know. P.S. hover it"
+        >
           <Languages className="mr-2" />
           Languages
         </h3>

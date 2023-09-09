@@ -8,12 +8,14 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Header/>
-      <div className="container grid grid-cols-4 mx-auto lg:grid-cols-12">
-        <Aside/>
-        <Main/>
+      <div className=" dark:bg-primary/10 print:bg-white">
+        <Header />
+        <div className="container grid grid-cols-4 mx-auto lg:grid-cols-12">
+          <Aside />
+          <Main />
+        </div>
+        <Footer />
       </div>
-      <Footer/>
     </ThemeProvider>
   );
 }

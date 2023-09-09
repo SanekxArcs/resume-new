@@ -1,16 +1,14 @@
-import { BrainCircuit } from "lucide-react"
+import { Info } from "lucide-react"
 
 const Interests = () => {
   return (
     <>
-      <div
-        className="cursor-default select-none break-before-auto print:hidden"
-      >
+      <div className="cursor-default select-none break-before-auto print:hidden">
         <h3
-          className="flex"
+          className="flex items-center justify-start "
           title="Show my relevant interests, have many other"
         >
-          <BrainCircuit className="mr-2" />
+          <Info className="mr-2" />
           Interests
         </h3>
         <ul className="flex flex-col gap-1 px-3">

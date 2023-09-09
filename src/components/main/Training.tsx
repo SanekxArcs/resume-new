@@ -1,4 +1,4 @@
-import {   Brain } from "lucide-react";
+import { FileBadge2 } from "lucide-react";
 
 import { Separator } from "../ui/separator";
 import { Badge } from "../ui/badge";
@@ -92,7 +92,7 @@ const Training = () => {
       className="cursor-default select-none scroll-m-16"
     >
       <h3 className="flex items-center">
-        <Brain className="mr-2 " />
+        <FileBadge2 className="mr-2 " />
         Certificates
       </h3>
       <Separator className="mb-4" />

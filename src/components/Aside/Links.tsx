@@ -60,7 +60,7 @@ const Links = () => {
     <>
       <div className="break-before-avoid">
         <h3
-          className="flex cursor-default select-none"
+          className="flex items-center justify-start cursor-default select-none "
           title="First links i can share with you you can also google me and find more about me"
         >
           <Link className="mr-2" /> Links

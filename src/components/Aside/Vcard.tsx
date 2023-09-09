@@ -7,7 +7,7 @@ const Vcard = () => {
     <>
       <div className="hidden lg:block">
         <h3
-          className="flex cursor-default select-none"
+          className="flex items-center justify-start cursor-default select-none"
           title="Scan with your Phone and it automatically add my contact to you phone"
         >
           <QrCode className="mr-2" />

@@ -6,6 +6,7 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./index.html",
   ],
   theme: {
     fontFamily: {
@@ -22,13 +23,19 @@ module.exports = {
     },
     extend: {
       dropShadow: {
-      "4xl": [
-        "2px 2px 0px rgba(255, 255, 255, 1)",
-        "-2px -2px 0px rgba(255, 255, 255, 1)",
-        "-2px 2px 0px rgba(255, 255, 255, 1)",
-        "2px -2px 0px rgba(255, 255, 255, 1)",
-      ],
-    },
+        "4xl": [
+          "2px 2px 0px rgba(255, 255, 255, 1)",
+          "-2px -2px 0px rgba(255, 255, 255, 1)",
+          "-2px 2px 0px rgba(255, 255, 255, 1)",
+          "2px -2px 0px rgba(255, 255, 255, 1)",
+        ],
+        "5xl": [
+          "1px 1px 0px rgba(255, 255, 255, 1)",
+          "-1px -1px 0px rgba(255, 255, 255, 1)",
+          "-1px 1px 0px rgba(255, 255, 255, 1)",
+          "1px -1px 0px rgba(255, 255, 255, 1)",
+        ],
+      },
       screens: {
         xs: "425px",
         sm: "640px",

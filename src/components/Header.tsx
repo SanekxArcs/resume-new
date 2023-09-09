@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
-import { Brain, Building2, Contact, FileCode2, Menu, Save, School } from "lucide-react";
-import profilePhoto from "./../assets/ProfilePhoto.webp";
+import { Building2, Contact, FileCode2, Menu, Save, School, FileBadge2  } from "lucide-react";
+import myPhoto from "./../assets/IMG_20220708_18031022.webp";
 import { ModeToggle } from "./mode-toggle";
 import {
   DropdownMenu,
@@ -21,10 +21,17 @@ const Header = () => {
           initial={{ opacity: 0, scale: 0.3, y: -200 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className={`container print:hidden mx-auto px-4 sticky top-2 m-2 rounded-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
+          className={`container print:hidden mx-auto px-4 sticky top-2  rounded-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
         >
           <div className="flex gap-2">
-            <img className="w-10 h-10" src={profilePhoto} alt="profilePhoto" />
+            <div className="mx-auto my-2 overflow-hidden transition-all duration-700 rounded-full group w-52 h-52 x-auto lg:h-10 lg:w-10 drop-shadow-5xl hover:rounded-md bg-gradient-to-br from-primary/40 to-primary/70">
+              <img
+                className="absolute top-0 left-0 w-10 h-10 drop-shadow-5xl"
+                src={myPhoto}
+                alt="Oleksandr Dzisiak"
+                title="Scan with your Phone and it automatically add my contact to you phone"
+              />
+            </div>
 
             <div className="flex flex-col items-start justify-center">
               <h1 className="font-black">Oleksandr Dzisiak</h1>
@@ -116,7 +123,7 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#certification">
-                      <Brain className="w-4 h-4 mr-2" />
+                      <FileBadge2  className="w-4 h-4 mr-2" />
                       Certification
                     </a>
                   </Button>
@@ -138,12 +145,12 @@ const Header = () => {
                 </DropdownMenuItem>
                 <div className="sm:hidden">
                   <DropdownMenuLabel>Settings</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem className="flex w-full gap-2">
-                  <ModeToggle />Change theme
-                </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem className="flex w-full gap-2">
+                    <ModeToggle />
+                    Change theme
+                  </DropdownMenuItem>
                 </div>
-                
               </DropdownMenuContent>
             </DropdownMenu>
           </div>

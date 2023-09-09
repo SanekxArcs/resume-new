@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <>
       <div id="contacts">
-        <h3 className="flex text-2xl font-semibold cursor-default select-none">
+        <h3 className="flex items-center justify-start text-2xl font-semibold rounded-md cursor-default select-none scroll-p-16">
           <Contact2 className="mr-2" />
           Contacts
         </h3>

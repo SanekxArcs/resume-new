@@ -196,7 +196,10 @@ const Projects = () => {
 
   const commercialElement = commercialP.map((element, index) => {
     return (
-      <div key={index} className="flex col-span-1 transition-all duration-500 lg:last:col-span-2 last:block hover:scale-[1.02] hover:drop-shadow-md select-none">
+      <div
+        key={index}
+        className="flex col-span-1 transition-all duration-500 lg:last:col-span-2 last:block hover:scale-[1.02] hover:drop-shadow-md select-none"
+      >
         <Card className="flex flex-col justify-between">
           <CardHeader>
             <CardTitle>{element.title}</CardTitle>

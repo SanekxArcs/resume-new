@@ -5,7 +5,7 @@ import { Link } from "lucide-react";
 const MainHead = () => {
   return (
     <>
-      <div id="top" className="pt-10 cursor-default select-none lg:pt-0">
+      <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
         <p className="lg:hidden">About me:</p>
         <motion.h1 className="text-5xl font-medium lg:text-6xl">
           Oleksandr Dzisiak
