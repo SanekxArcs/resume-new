@@ -24,10 +24,10 @@ module.exports = {
     extend: {
       dropShadow: {
         "4xl": [
-          "2px 2px 0px rgba(255, 255, 255, 1)",
-          "-2px -2px 0px rgba(255, 255, 255, 1)",
-          "-2px 2px 0px rgba(255, 255, 255, 1)",
-          "2px -2px 0px rgba(255, 255, 255, 1)",
+          "0px 2px 0px rgba(255, 255, 255, 1)",
+          "0px -2px 0px rgba(255, 255, 255, 1)",
+          "-2px 0px 0px rgba(255, 255, 255, 1)",
+          "2px 0px 0px rgba(255, 255, 255, 1)",
         ],
         "5xl": [
           "1px 1px 0px rgba(255, 255, 255, 1)",
