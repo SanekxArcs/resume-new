@@ -10,10 +10,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Montserrat", "Inter", "ui-sans-serif", "system-ui"],
+      sans: ["Montserrat", "ui-sans-serif", "system-ui"],
       serif: ["ui-serif", "Georgia"],
       mono: ["ui-monospace", "SFMono-Regular"],
-      display: ["Inter"],
       body: ['"Montserrat"'],
     },
     container: {
