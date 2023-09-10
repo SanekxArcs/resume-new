@@ -1,7 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
 import { Building2, Contact, FileCode2, Menu, Save, School, FileBadge2  } from "lucide-react";
-import myPhoto from "./../assets/IMG_20220708_18031022.webp";
 import { ModeToggle } from "./mode-toggle";
 import {
   DropdownMenu,
@@ -11,51 +10,49 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { headInformation } from './../db/db.json'
+import myPhoto from "./../assets/IMG_20220708_18031022.webp";
+import pdf from './../assets/Oleksandr Dzisiak - Frontend CV.pdf'
 
 const Header = () => {
+
+  const downloadButton = (
+    <Button variant="outline" asChild className="justify-start w-full">
+      <a href={pdf} download type="pdf" rel="alternate">
+        <Save className="w-4 h-4 mr-2" />
+        Save CV in PDF
+      </a>
+    </Button>
+  );
 
   return (
     <>
       <AnimatePresence>
         <motion.header
-          initial={{ opacity: 0, scale: 0.3, y: -200 }}
+          initial={{ opacity: 0, scale: 0, y: -112 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className={`container print:hidden mx-auto px-4 sticky top-2 rounded-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
+          className={`container print:hidden mx-auto px-4 sticky top-0 rounded-br-md rounded-bl-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
         >
           <div className="flex gap-2">
             <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 rounded-full group drop-shadow-5xl bg-gradient-to-br from-primary/40 to-primary/70">
               <img
                 className="w-10 h-10 drop-shadow-5xl"
                 src={myPhoto}
-                alt="Oleksandr Dzisiak"
+                alt={headInformation.name}
                 title="Scan with your Phone and it automatically add my contact to you phone"
               />
             </div>
 
             <div className="flex flex-col items-start justify-center">
-              <h1 className="font-black">Oleksandr Dzisiak</h1>
-              <h2 className="text-sm text-muted-foreground">
-                Frontend Developer
-              </h2>
+              <p className="font-black">{headInformation.name}</p>
+              <p className="text-sm text-muted-foreground">
+                {headInformation.work}
+              </p>
             </div>
           </div>
           <div className="flex items-center gap-2 w-fit">
-            <div className="hidden sm:block">
-              <Button
-                variant="outline"
-                asChild
-                className="justify-start w-full"
-              >
-                <a
-                  href="./../assets/Oleksandr Dzisiak - Frontend CV.pdf"
-                  download
-                >
-                  <Save className="w-4 h-4 mr-2" />
-                  Save CV in PDF
-                </a>
-              </Button>
-            </div>
+            <div className="hidden sm:block">{downloadButton}</div>
             <div className="hidden sm:block">
               <ModeToggle />
             </div>
@@ -123,26 +120,12 @@ const Header = () => {
                     className="justify-start w-full"
                   >
                     <a href="#certification">
-                      <FileBadge2  className="w-4 h-4 mr-2" />
+                      <FileBadge2 className="w-4 h-4 mr-2" />
                       Certification
                     </a>
                   </Button>
                 </DropdownMenuItem>
-                <DropdownMenuItem className="w-full">
-                  <Button
-                    variant="outline"
-                    asChild
-                    className="justify-start w-full sm:hidden"
-                  >
-                    <a
-                      href="./../assets/Oleksandr Dzisiak - Frontend CV.pdf"
-                      download
-                    >
-                      <Save className="w-4 h-4 mr-2" />
-                      Save CV in PDF
-                    </a>
-                  </Button>
-                </DropdownMenuItem>
+                <DropdownMenuItem className="w-full sm:hidden"></DropdownMenuItem>
                 <div className="sm:hidden">
                   <DropdownMenuLabel>Settings</DropdownMenuLabel>
                   <DropdownMenuSeparator />

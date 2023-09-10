@@ -1,15 +1,8 @@
 import { MessageCircle } from "lucide-react";
+import { softSkills } from '../../db/db.json'
 
 const SoftSkills = () => {
-  const softSkillsData: string[] = [
-    "Innovative thinking and originality.",
-    "Efficient allocation and utilization of time.",
-    "Adjusting in different situations.",
-    "Optimization of work flow.",
-    "Finding fast and good solutions.",
-    "Good tasks understanding."
-  ];
-  const softSkillsElements = softSkillsData.map((skill, index) => (
+  const softSkillsElements = softSkills.map((skill, index) => (
     <li key={index}>{skill}</li>
   ));
 

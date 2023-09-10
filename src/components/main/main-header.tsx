@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import { Button } from "../ui/button";
 import { Link } from "lucide-react";
+import { headInformation } from "./../../db/db.json";
 
 const MainHead = () => {
   return (
@@ -8,23 +9,16 @@ const MainHead = () => {
       <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
         <p className="lg:hidden">About me:</p>
         <motion.h1 className="text-5xl font-medium lg:text-6xl">
-          Oleksandr Dzisiak
+          {headInformation.name}
         </motion.h1>
-        <motion.h2 className="mb-4 text-2xl lg:text-4xl text-accent-foreground" title="Also i have many ">
-          Frontend developer
+        <motion.h2
+          className="mb-4 text-2xl lg:text-4xl text-accent-foreground"
+          title="Also i have many "
+        >
+          {headInformation.work}
         </motion.h2>
         <motion.p className="text-base lg:text-lg">
-          I am a highly motivated professional with a passion for
-          creating visually appealing and user-friendly web applications with
-          HTML, CSS and functionality of web app with JavaScript 
-          In addition in React.js, I specialize in finding
-          solutions to challenges and obstacles, showcasing my adaptability and
-          problem-solving skills. Also i have experience with popular frameworks
-          such as. Time management is another forte, as I am adept at
-          efficient allocation and utilization of time, ensuring timely delivery
-          of high-quality work. Beyond this, I actively seek to learn and
-          integrate new technologies, reflecting my dedication to continuous
-          improvement.
+          {headInformation.about}
           <Button
             asChild
             variant="outline"

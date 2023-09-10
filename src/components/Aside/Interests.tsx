@@ -1,6 +1,12 @@
 import { Info } from "lucide-react"
+import interestsData from "./../../db/db.json";
 
 const Interests = () => {
+
+  const interestsElements = interestsData.interests.map((element, index) => {
+    return <li key={index}>{element}</li>;
+  });
+
   return (
     <>
       <div className="cursor-default select-none break-before-auto print:hidden">
@@ -12,11 +18,7 @@ const Interests = () => {
           Interests
         </h3>
         <ul className="flex flex-col gap-1 px-3">
-          <li>Machine learning</li>
-          <li>3D Modeling</li>
-          <li>Inventing new</li>
-          <li>Read books/blog news in IT</li>
-          <li>Tech innovations</li>
+          {interestsElements}
         </ul>
       </div>
     </>

@@ -1,10 +1,5 @@
 import { Languages } from "lucide-react";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip"
+import { languages} from "./../../db/db.json";
 
 
 const Language = () => {
@@ -19,9 +14,6 @@ const Language = () => {
           Languages
         </h3>
         <div className="flex flex-col gap-2 px-3">
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger>
                 <div className="flex flex-row items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,46 +43,28 @@ const Language = () => {
                       ></path>
                     </g>
                   </svg>
-                  English: <span className="font-semibold">B2</span>
+                  English: {languages.english}
                 </div>
-              </TooltipTrigger>
-              <TooltipContent>
-                <span className="font-semibold">B2</span> - Write / Speak,
-                <span className="font-semibold">C1</span> - Listen / Read
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger>
-                <div className="flex flex-row items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1.4em"
-                    height="1.4em"
-                    viewBox="0 0 512 512"
-                  >
-                    <mask id="circleFlagsPl0">
-                      <circle cx="256" cy="256" r="256" fill="#fff"></circle>
-                    </mask>
-                    <g mask="url(#circleFlagsPl0)">
-                      <path
-                        fill="#d80027"
-                        d="m0 256l256.4-44.3L512 256v256H0z"
-                      ></path>
-                      <path fill="#eee" d="M0 0h512v256H0z"></path>
-                    </g>
-                  </svg>
-                  Poland: <span className="font-semibold">C1</span>
-                </div>
-              </TooltipTrigger>
-              <TooltipContent>
-                <span className="font-semibold">B2</span> - Write,
-                <span className="font-semibold">C1</span> - Listen / Read /
-                Speak
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+          <div className="flex flex-row items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.4em"
+              height="1.4em"
+              viewBox="0 0 512 512"
+            >
+              <mask id="circleFlagsPl0">
+                <circle cx="256" cy="256" r="256" fill="#fff"></circle>
+              </mask>
+              <g mask="url(#circleFlagsPl0)">
+                <path
+                  fill="#d80027"
+                  d="m0 256l256.4-44.3L512 256v256H0z"
+                ></path>
+                <path fill="#eee" d="M0 0h512v256H0z"></path>
+              </g>
+            </svg>
+            Poland: {languages.polish}
+          </div>
           <div
             className="flex flex-row items-center gap-2"
             title="I was born in Ukraine "
@@ -109,7 +83,7 @@ const Language = () => {
                 <path fill="#338af3" d="M0 0h512v256H0z"></path>
               </g>
             </svg>
-            Ukrainian: Native
+            Ukrainian: {languages.ukrainian}
           </div>
         </div>
       </div>
