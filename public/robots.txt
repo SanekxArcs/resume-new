@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/  # Disallow access to the private directory
+Disallow: /admin/    # Disallow access to the admin section
+Sitemap: https://o-d.netlify.app/sitemap.xml
