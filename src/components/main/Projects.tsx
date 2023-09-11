@@ -77,16 +77,23 @@ const petElement = projectsElementsBuild(petProjects);
           Projects
         </h3>
         <TabsList className="flex flex-col items-center justify-start w-full h-full md:flex-row print:hidden">
-          <TabsTrigger value="all">All</TabsTrigger>
-          <TabsTrigger value="Commercial">Commercial projects</TabsTrigger>
-          <TabsTrigger value="pet">Pet-projects</TabsTrigger>
-          <TabsTrigger value="hide">Hide all</TabsTrigger>
+          <TabsTrigger className="w-full" value="Commercial">
+            Commercial projects
+          </TabsTrigger>
+          <TabsTrigger className="w-full" value="pet">
+            Pet-projects
+          </TabsTrigger>
+          <TabsTrigger className="w-full" value="all">
+            All
+          </TabsTrigger>
+          <TabsTrigger className="w-full" value="hide">
+            Hide all
+          </TabsTrigger>
         </TabsList>
         <TabsContent value="all">
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
             {commercialElement}
             {petElement}
-
           </div>
         </TabsContent>
         <TabsContent value="Commercial">
