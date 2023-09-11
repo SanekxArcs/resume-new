@@ -5,12 +5,7 @@ import { workExperience } from './../../db/db.json'
 
 const WorkExperienceElements = workExperience.map((elem, index) => {
  return (
-   <li
-     key={index}
-     className={`${
-       elem.print ? "print:hidden" : ""
-     } mb-10 ml-6 break-before-all`}
-   >
+   <li key={index} className={`mb-10 print:mb-5 ml-6`}>
      <span className="absolute z-10 flex items-center justify-center w-6 h-6 rounded-full bg-primary/40 dark:bg-primary -left-3 ring-8 ring-background">
        <Briefcase className="w-3 h-3" />
      </span>
@@ -43,10 +38,16 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
        <CalendarClock className="w-4 h-4 mr-2 " />
        {elem.duration}
      </time>
-     <p className="text-sm  ">Short job description:</p>
-     <ul className="pl-3 mb-1 text-base font-normal  list-disc">
+     <p className={`${elem.print ? "print:hidden" : ""} text-sm`}>
+       Short job description:
+     </p>
+     <ul
+       className={`${
+         elem.print ? "print:hidden" : ""
+       } pl-3 mb-1 text-base font-normal  list-disc`}
+     >
        {elem.description.map((item, i) => (
-         <li className="" key={i}>
+         <li className={`${elem.print ? "print:hidden" : ""}`} key={i}>
            {item}
          </li>
        ))}
