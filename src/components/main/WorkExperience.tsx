@@ -39,12 +39,12 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
        ""
      )}
 
-     <time className="flex items-center mb-2 text-sm font-normal leading-none text-gray-300">
+     <time className="flex items-center mb-2 text-sm font-normal leading-none  ">
        <CalendarClock className="w-4 h-4 mr-2 " />
        {elem.duration}
      </time>
-     <p className="text-sm text-gray-300">Short job description:</p>
-     <ul className="pl-3 mb-1 text-base font-normal text-gray-300 list-disc">
+     <p className="text-sm  ">Short job description:</p>
+     <ul className="pl-3 mb-1 text-base font-normal  list-disc">
        {elem.description.map((item, i) => (
          <li className="" key={i}>
            {item}
