@@ -11,7 +11,7 @@ const Vcard = () => {
           title="Scan with your Phone and it automatically add my contact to you phone"
         >
           <QrCode className="mr-2" />
-          VCARD
+          VCARD <span className="ml-2 text-muted-foreground text-xs">fast add me to contact</span>
         </h3>
         <a
           className="cursor-pointer "
