@@ -39,12 +39,12 @@
   "headInformation": {
     "name": "Oleksandr Dzisiak",
     "work": "Frontend developer",
-    "about": "I am a highly motivated professional with a passion for creating visually appealing and user-friendly web applications with HTML, CSS and functionality of web app with JavaScript In addition in React.js, I specialize in finding solutions to challenges and obstacles, showcasing my adaptability and problem-solving skills. Also i have experience with popular frameworks such as. Time management is another forte, as I am adept at efficient allocation and utilization of time, ensuring timely delivery of high-quality work. Beyond this, I actively seek to learn and integrate new technologies, reflecting my dedication to continuous improvement."
+    "about": "Developer with about 2-3 years of experience, a professional with a passion for all the latest technologies to create visually appealing and user-friendly web applications. Specialize in React.js. Looking for a job where I can solve tasks that will help me develop both in the field of development and in the field of communication. Feel free to massage me on any social platform I add in contacts & links."
   },
   "petProjects": [
     {
       "title": "Book Database Website",
-      "description": "Website with a book database. Data is fetched from a server that responds to various actions, such as database updates, adding, deleting, editing, and adding to favorites.",
+      "description": "Website with a book database. Data is fetched from a server that responds to various actions.",
       "features": [
         "Database updates",
         "Adding books",
@@ -58,39 +58,38 @@
         "JavaScript",
         "React.js",
         "Tailwind CSS",
-        "Vite or Next.js"
+        "Vite"
       ],
       "url": "https://demo-book-list.netlify.app/"
     },
     {
       "title": "Startupz Portfolio",
-      "description": "Portfolio website designed as a test task according to the pixel-perfect layout provided by Pixel Perfect Company.",
+      "description": "Portfolio website designed as a test task according to the pixel-perfect layout provided by Company .",
       "features": [
         "Pixel-perfect layout implementation",
-        "Test task project",
         "Portfolio showcase"
       ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "Tailwind CSS", "React.js", "JavaScript"],
       "url": "https://starupz.netlify.app/"
     },
     {
-      "title": "Bankist-O-D Portfolio",
+      "title": "Bankist",
       "description": "Portfolio website with animations and a slider, implemented in vanilla JavaScript. Created as a homework assignment for a JavaScript course.",
-      "features": ["Animations", "Slider", "JavaScript homework assignment"],
+      "features": ["Animations", "Slider", "Modal window on timer"],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://bankist-o-d.netlify.app/"
     },
     {
-      "title": "Bankist App Demo",
+      "title": "Bankist WebApp Demo",
       "description": "Demo of a banking application website. Users can log in, make transfers, and sort between existing accounts.",
-      "features": ["User login", "Money transfers", "Account sorting"],
+      "features": ["User login (js, 1111)", "Money transfers", "Account sorting"],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://bankist-app-o-d.netlify.app/"
     },
     {
       "title": "Maply",
-      "description": "Service website for storing your favorite spots or bike trips and saving the history in local storage.",
-      "features": ["Spot and trip storage", "Local storage for history"],
+      "description": "Service website for storing your favorite spots or bike trips.",
+      "features": ["Spot and trip storage", "Local storage for history", "Calculations"],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://maply-o-d.netlify.app/"
     },
@@ -116,13 +115,13 @@
         "Sorting",
         "Search"
       ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "React.js", "Tailwind CSS", "JavaScript"],
       "url": "https://app-accounting-employees.netlify.app/"
     },
     {
       "title": "Number Guessing Game",
       "description": "A game where you need to guess a number within 20 attempts. Includes a ranking system.",
-      "features": ["Number guessing within 20 attempts", "Ranking system"],
+      "features": ["Number guessing within 20 attempts", "Ranking system", "Fun design"],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://game-od.netlify.app/"
     },
@@ -151,21 +150,11 @@
       "features": [
         "3D visualizations of solar panels",
         "Accuracy up to 5 cm",
-        "Portfolio showcase"
+        "Portfolio showcase",
+        "Gallery"
       ],
       "technologies": ["HTML", "CSS", "3D modeling software"],
       "url": "https://od-3d-visualisation.netlify.app/"
-    },
-    {
-      "title": "Resume and Portfolio Website",
-      "description": "A resume, business card, and portfolio website created to showcase my entire work history and projects.",
-      "features": [
-        "Resume presentation",
-        "Work history showcase",
-        "Project portfolio"
-      ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://o-d.netlify.app/"
     },
     {
       "title": "Personal Business Card Website",
@@ -196,7 +185,7 @@
       "url": "https://actove-box.netlify.app/"
     },
     {
-      "title": "Portfolio Testing Website",
+      "title": "Portfolio Testing Website 2",
       "description": "A portfolio website created for testing one's skills.",
       "features": ["Skill testing", "Portfolio showcase"],
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -246,14 +235,14 @@
       "url": "https://tip-calculation-sa.netlify.app/"
     },
     {
-      "title": "Simple Notepad",
+      "title": "Simple To do list",
       "description": "A very basic notepad with the ability to add or delete notes.",
       "features": ["Note addition", "Note deletion"],
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://t-d.netlify.app/"
     },
     {
-      "title": "Test Task for My Internet Shop",
+      "title": "Test Task",
       "description": "A test task related to my internet shop project.",
       "features": ["Test task assignment"],
       "technologies": ["HTML", "CSS", "JavaScript"],
