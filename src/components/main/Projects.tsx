@@ -11,10 +11,19 @@ import { Button } from "../ui/button";
 import { FileCode2, Link } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { commercialProjects } from "./../../db/db.json";
+import { petProjects } from "./../../db/db.json";
 
+interface WebsiteInfo {
+  title: string;
+  description: string;
+  features: string[];
+  technologies: string[];
+  url: string;
+}
 const Projects = () => {
 
-  const commercialElement = commercialProjects.map((element, index) => {
+const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
+  return projectsArray.map((element: WebsiteInfo, index: number) => {
     return (
       <div
         key={index}
@@ -55,7 +64,10 @@ const Projects = () => {
       </div>
     );
   });
+};
 
+const commercialElement = projectsElementsBuild(commercialProjects);
+const petElement = projectsElementsBuild(petProjects);
 
   return (
     <section id="projects" className=" break-before-auto scroll-m-16">
@@ -73,6 +85,8 @@ const Projects = () => {
         <TabsContent value="all">
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
             {commercialElement}
+            {petElement}
+
           </div>
         </TabsContent>
         <TabsContent value="Commercial">
@@ -82,7 +96,7 @@ const Projects = () => {
         </TabsContent>
         <TabsContent value="pet">
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            <p>Coming soon</p>
+            {petElement}
           </div>
         </TabsContent>
         <TabsContent value="hide"></TabsContent>
