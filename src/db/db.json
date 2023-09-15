@@ -256,13 +256,6 @@
       "url": "https://modal-test-od.netlify.app/"
     },
     {
-      "title": "Product Preview Card",
-      "description": "A website project created with a focus on achieving a pixel-perfect design.",
-      "features": ["Pixel-perfect design implementation"],
-      "technologies": ["HTML", "CSS"],
-      "url": "https://product-preview-card-sa.netlify.app/"
-    },
-    {
       "title": "Frontend Mentor Task",
       "description": "A task from the Frontend Mentor website, executed with a focus on achieving a pixel-perfect design.",
       "features": [
