@@ -1,10 +1,8 @@
 {
   "contacts": {
-    "email": "oleksandr.dzisiak@gmail.com",
-    "phoneNumber": "+48 735 145 620",
-    "location": "Poland, Warsaw",
-    "relocationReady": true,
-    "typeOfContract": "B2B or other"
+    "email": "margom372@gmail.com",
+    "phoneNumber": "+380 962 507 587",
+    "location": "Київ, Україна"
   },
   "interests": [
     "Machine learning",
@@ -14,32 +12,30 @@
     "Tech innovations"
   ],
   "languages": {
-    "english": "B2",
-    "polish": "C1",
-    "ukrainian": "Native"
+    "english": "A1-A2",
+    "ukrainian": "Рідна"
   },
   "softSkills": [
-    "Innovative thinking and originality.",
-    "Efficient allocation and utilization of time.",
-    "Adjusting in different situations.",
-    "Optimization of work flow.",
-    "Finding fast and good solutions.",
-    "Good tasks understanding."
+    "Відповідальність",
+    "Уважність до деталей",
+    "Праця у команді",
+    "Координування знімального процесу",
+    "Швидке знаходження рішень",
+    "Стресостійкість",
+    "Неконфліктність",
+    "Доброзичливість",
+    "Відкритість"
   ],
   "education": [
     {
-      "institution": "National Technikal University of Ukraine 'Igor Sikorsky Kyiv Politechnic Institute'",
-      "specialization": "Electrikal Engineering and Electrotechnics"
-    },
-    {
-      "institution": "Kyiv College of Energy Politechnic Institute",
-      "specialization": "Maintenance of automated power equipment in power plants"
+      "institution": "Київський національний університет театру, кіно і телебачення імені Івана Карпенка-Карого ",
+      "specialization": "Кінотелеоператорства спеціальність кінооператор"
     }
   ],
   "headInformation": {
-    "name": "Oleksandr Dzisiak",
-    "work": "Frontend developer",
-    "about": "Developer with 2-3 years of experience, a professional with a passion for all the latest technologies to create visually appealing and user-friendly web applications. Specializing in React.js. Looking for a job where I can solve tasks that will help me grow both in the field of development and in the field of communication. Feel free to message me on any of the social platforms I have added in Contacts & Links."
+    "name": "Маргарита Ткачук",
+    "work": "Відеоорператорка та Фотографиня",
+    "about": "Вже більше 5 років я знімаю комерційні проєкти для малого та середнього бізнесу, створюю креативний контент для соціальних мереж, а також знімаю документальні проєкти та ютуб шоу. Я знайшла своє покликання у мистецтві, маю профільну освіту та кожен день розвиваюсь і вдосконалюю свої навички. Я обожнюю фотографію та кіно і вивчаю їх на рівні видатних митців, я не просто знімаю, а передаю почуття, сенс, емоцію, мить."
   },
   "petProjects": [
     {
@@ -477,111 +473,100 @@
   ],
   "workExperience": [
     {
-      "jobTitle": "Frontend developer | Electrical engineer",
-      "companyName": "Solar Sense Krzysztof Gutter",
-      "location": "Poland, Warsaw",
-      "duration": "03.2023 – 08.2023",
+      "jobTitle": "Оператор постановник документального кіно 'Фелікс'",
+      "companyName": "FELIX Production",
+      "duration": "07.2022 – 10.2022",
       "description": [
-        "Design and create multi-page site on React",
-        "Optimize website for performance to get a 99 page speed test and SEO;",
-        "A big calculation tool in Google Sheets",
-        "Create a generator of PDF docs from data and calculations",
-        "The execution of 3D visualization projects PV"
+        "Виконувала обовязки головного оператора ппрєкту",
+        "Розробка режисерського сценарію та візуального стилю",
+        "Пошук та освоєння локацій для зйомок",
+        "Складання технічного листу, планування зйомок",
+        "Робота на локації, робота зі знімальним обладнанням, контроль відзнятого матеріалу"
       ],
-      "website": "https://solarsense.pl/",
-      "websiteName": "solarsense.pl",
+      "website": "https://www.youtube.com/watch?v=0-HzW7RGm2o",
+      "websiteName": "@FELIX.Production",
       "print": false
     },
     {
-      "jobTitle": "Frontend developer",
-      "companyName": "Best Solution Eco Sp. z o. o.",
-      "location": "Poland, Warsaw",
-      "duration": "07.2022 – 03.2023",
+      "jobTitle": "Операторка розважального YuoTube шоу",
+      "companyName": "Пешка",
+      "duration": "09.2022 – 09.2023",
       "description": [
-        "Maintaining and updating the website to ensure proper and efficient functioning",
-        "Fixing bugs and adding new features",
-        "Ensuring compatibility with various web browsers and devices",
-        "Monitoring website traffic and analyzing data",
-        "Making updates and changes based on data analysis",
-        "Troubleshooting issues that arise",
-        "Providing technical support to users",
-        "Contributing to the development of new features and improvements to enhance the user experience"
+        "Зйомка на локації",
+        "Робота з технікою та світлом",
+        "Робота з кадром та акторами",
+        "Налаштування та запис звуку",
+        "Пошук ідей та референсів",
+        "Робота з реквізитом та декором"
       ],
-      "website": "http://bestsolution.eco/",
-      "websiteName": "bestsolution.eco",
+      "website": "https://www.youtube.com/@lerapeshka",
+      "websiteName": "@lerapeshka",
       "print": false
     },
     {
-      "jobTitle": "Electrician",
-      "jobTitle2": "Electrical Engineer",
-      "companyName": "BANKIER GROUP sp. z o.o. GREEN SMART ENERGY sp. k.",
-      "location": "Poland",
-      "duration": "02.2020 – 06.2022",
+      "jobTitle": "Контент майкер",
+      "companyName": "Kazo",
+      "duration": "03.2022 – 06.2023",
       "description": [
-        "As an electrician, I specialize in the installation and maintenance of various electrical systems in the company. I am responsible for repairing any faults that may occur and, if necessary, rebuilding the existing electrical installation system. Working in close collaboration with other team members, I am committed to ensuring the proper functioning of all electrical devices and equipment. With my extensive experience in the field, I have developed a keen eye for detail and a strong sense of professionalism. I am highly skilled in monitoring the proper operation of electrical devices and am committed to delivering top-quality work that meets the highest industry standards."
+        "Планування вмісту сторінки",
+        "Створення контент-плану",
+        "Створення індивідуального стилю сторінки Відеозйомка",
+        "Робота з технікою та світлом",
+        "Обробка відео",
+        "Постійне вдосконалення контенту",
+        "Пошук нових ідей",
+        "Привертання аудиторії"
       ],
-      "website": "https://gse.info.pl/",
-      "websiteName": "gse.info.pl",
-      "print": true
+      "website": "https://www.instagram.com/kazo.younique/?igshid=MzRlODBiNWFlZA%3D%3D",
+      "websiteName": "@kazo.younique",
+      "print": false
     },
     {
-      "jobTitle": "Trainee",
+      "jobTitle": "Телеоператорка",
       "jobTitle2": "Junior Frontend Developer",
-      "companyName": "A&A Web and App solutions",
-      "location": "Ukraine, Kiev",
-      "duration": "01.2019 – 11.2019",
+      "companyName": "Телеканал “1+1”",
+      "duration": "2020 – 2022",
       "description": [
-        "Use HTML, CSS, and JavaScript to build websites",
-        "Use CSS preprocessors such as SASS or LESS to write more efficient CSS code",
-        "Test and debug website across multiple browsers and devices",
-        "Optimize website for performance and SEO",
-        "Work closely with back-end developers to ensure seamless integration of frontend and back-end functionality",
-        "Eight projects were made, which includes an online store, a forum, a landing pages, and a business card sites"
+        "Зйомка новинних сюжетів",
+        "Підготовка до зйомки",
+        "Налаштування обладнання",
+        "Робота з кадром та світлом на локаціі",
+        "Пошук ексклюзивного матеріалу для сюжетів"
       ],
-      "website": "https://web.archive.org/web/20220530091720/https://a8a.com.ua/",
-      "websiteName": "a8a.com.ua",
+      "website": "https://1plus1.ua/",
+      "websiteName": "1plus1.ua",
       "print": false
     },
     {
-      "jobTitle": "IT Support",
-      "jobTitle2": "Department Manager",
-      "companyName": "Dnipropetrovsk Opera and Ballet Theatre",
-      "location": "Ukraine, Dnipro",
-      "duration": "01.2018 – 11.2018",
+      "jobTitle": "Фотограф",
+      "companyName": "Контент Фотограф  для експертного блогу з психології",
+      "duration": "з 05.2022 і надалі триває співпраця",
       "description": [
-        "At the beginning of my career, I started as a simple support worker. Due to my diligence and high performance, I was promoted to the position of department manager. In this role, I developed organizational, personnel management and meeting skills.",
-        "My duties included not only the organization of documentation and the purchase of office supplies, but also the optimization of the company's costs. I set new standards of performance for the entire team, including my three employees. Thanks to my communication and problem-solving skills, everyone started working more efficiently through proper delegation of tasks. During this period, there was a need to update the company's website.",
-        "Thanks to my skills acquired from my previous job, I took on this task and successfully completed it on the Wix.com platform. The choice of this particular platform was made with the aim of enabling even people without programming skills to make changes both visually and in content. After the new website was completed, my responsibilities included maintaining and managing it for the theater. I was involved in updating content, adding new features and ensuring the website worked efficiently for our visitors. Later, this job was transferred to a new employee."
+        "Планування вмісту сторінки",
+        "створення контент-плану",
+        "створення індивідуального стилю",
+        "Планування та організація знімального процесу",
+        "пошук локацій Зйомки різного жанру",
+        "робота з технікою та світлом на локації ",
+        "обробка відзнятого матеріалу"
       ],
-      "website": "https://web.archive.org/web/20210620145435/https://www.opera-ballet.com.ua/",
-      "websiteName": "opera-ballet.com.ua",
-      "print": true
+      "website": "https://www.instagram.com/stash.angel/?igshid=MzRlODBiNWFlZA%3D%3D",
+      "websiteName": "@stash.angel",
+      "print": false
     },
     {
-      "jobTitle": "Warehouseman",
-      "jobTitle2": "Department Manager",
-      "companyName": "AKS!",
-      "duration": "02.2017 – 12.2017",
+      "jobTitle": "Фріланс Фотограф",
+      "duration": "з 2018 і до тепер",
       "description": [
-        "Starting as a storekeeper for a company specializing in phone accessories, I was responsible for receiving, sorting and picking goods for over 20 stores every morning. On my own initiative I developed an advanced system of sorting, numbering, and tabulation that had never existed before. These changes improved performance, and after a management evaluation, I was promoted.",
-        "As a department head, my responsibilities included managing and delegating tasks to account managers (2 people), storekeepers (2 people), couriers (3 people) and the repair department (2 people).",
-        "One of my main achievements was optimizing the logistics of sending goods and implementing efficient methods to reduce time and costs. I also stopped the turnover by focusing on the right recruitment. My listening skills have helped me understand the needs of employees and solve problems.",
-        "At the end of my working period, I was offered the position of head of the regional department, but due to family circumstances and relocation, I had to decline this opportunity."
+        "Пошук клієнтів",
+        "Активне просування послуг",
+        "Організація знімального процесу",
+        "Підготовка знімального обладнення",
+        "Робота з кадром",
+        "Світлом на локаціі",
+        "Зйомка та обробка відзнятого матеріалу"
       ],
-      "print": true
-    },
-    {
-      "jobTitle": "Employee of the desalination plant department",
-      "companyName": "Khmelnitsk nuclear power plant",
-      "location": "Ukraine, Netishyn",
-      "duration": "08.2014 – 01.2017",
-      "description": [
-        "Hardware monitoring",
-        "Performing water treatment works",
-        "Performing other prescribed work instructions",
-        "Other information - NDA"
-      ],
-      "print": true
+      "print": false
     }
   ]
 }

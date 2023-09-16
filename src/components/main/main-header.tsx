@@ -7,12 +7,12 @@ const MainHead = () => {
   return (
     <>
       <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
-        <p className="lg:hidden">About me:</p>
+        <p className="lg:hidden">Про мене:</p>
         <motion.h1 className="text-5xl font-medium lg:text-6xl">
           {headInformation.name}
         </motion.h1>
         <motion.h2
-          className="mb-4 text-2xl lg:text-4xl text-accent-foreground"
+          className="mb-4 text-2xl lg:text-3xl text-accent-foreground"
           title="Also i have many "
         >
           {headInformation.work}
@@ -31,7 +31,7 @@ const MainHead = () => {
               title="Link to my site"
             >
               <Link className="w-4 h-4 mr-2" />
-              Click here to see my full and latest resume updates
+              Натисни та перейди на мій сайт Резюме/Портфоліо
             </a>
           </Button>
         </motion.p>

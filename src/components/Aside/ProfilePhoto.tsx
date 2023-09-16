@@ -1,5 +1,5 @@
-import myPhoto from "../../assets/IMG_20220708_18031022.webp";
-import qrCode from "./../../assets/qr-code.webp";
+import myPhoto from "../../assets/Untitled-1.webp"
+import qrCode from "./../../assets/qr-code (3).png";
 
 const ProfilePhoto = () => {
   return (
@@ -12,7 +12,7 @@ const ProfilePhoto = () => {
           title="Scan with your Phone and it automatically add my contact to you phone"
         />
         <img
-          className="transition-all duration-700 scale-100 opacity-100 w-52 h-52 group-hover:scale-0 group-hover:opacity-0 drop-shadow-4xl"
+          className="transition-all scale-100 duration-700 opacity-100 w-52 h-52 group-hover:scale-0 group-hover:opacity-0 drop-shadow-4xl"
           src={myPhoto}
           alt="Oleksandr Dzisiak"
           title="Scan with your Phone and it automatically add my contact to you phone"

@@ -15,7 +15,7 @@ const Interests = () => {
           title="Show my relevant interests, have many other"
         >
           <Info className="mr-2" />
-          Interests
+          Інтереси
         </h3>
         <ul className="flex flex-col gap-1 px-3">
           {interestsElements}

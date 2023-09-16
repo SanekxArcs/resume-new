@@ -11,8 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { headInformation } from './../db/db.json'
-import myPhoto from "./../assets/IMG_20220708_18031022.webp";
-import pdf from './../assets/Oleksandr Dzisiak - Frontend CV.pdf'
+import myPhoto from "./../assets/Untitled-1.webp";
+import pdf from './../assets/Margarita Tkachyk.pdf'
 
 const Header = () => {
 
@@ -20,7 +20,7 @@ const Header = () => {
     <Button variant="outline" asChild className="justify-start w-full">
       <a href={pdf} download type="pdf" rel="alternate">
         <Save className="w-4 h-4 mr-2" />
-        Save CV in PDF
+        Зберегти резюме в PDF
       </a>
     </Button>
   );
@@ -45,8 +45,8 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col items-start justify-center">
-              <p className="font-black">{headInformation.name}</p>
-              <p className="text-sm text-muted-foreground">
+              <p className="font-semibold">{headInformation.name}</p>
+              <p className="text-sm text-secondary">
                 {headInformation.work}
               </p>
             </div>
@@ -63,7 +63,7 @@ const Header = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
-                <DropdownMenuLabel>All sections</DropdownMenuLabel>
+                <DropdownMenuLabel>Усі секції</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <Button
@@ -73,7 +73,7 @@ const Header = () => {
                   >
                     <a href="#contacts">
                       <Contact className="w-4 h-4 mr-2" />
-                      Contacts
+                      Контакти
                     </a>
                   </Button>
                 </DropdownMenuItem>
@@ -85,7 +85,7 @@ const Header = () => {
                   >
                     <a href="#projects">
                       <FileCode2 className="w-4 h-4 mr-2" />
-                      Projects
+                      Фото роботи
                     </a>
                   </Button>
                 </DropdownMenuItem>
@@ -97,7 +97,7 @@ const Header = () => {
                   >
                     <a href="#work">
                       <Building2 className="w-4 h-4 mr-2" />
-                      Work experience
+                      Досвід Роботи
                     </a>
                   </Button>
                 </DropdownMenuItem>
@@ -109,11 +109,11 @@ const Header = () => {
                   >
                     <a href="#education">
                       <School className="w-4 h-4 mr-2" />
-                      Education
+                      Навчання
                     </a>
                   </Button>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                {/* <DropdownMenuItem>
                   <Button
                     variant="outline"
                     asChild
@@ -124,14 +124,14 @@ const Header = () => {
                       Certification
                     </a>
                   </Button>
-                </DropdownMenuItem>
+                </DropdownMenuItem> */}
                 <DropdownMenuItem className="w-full sm:hidden"></DropdownMenuItem>
                 <div className="sm:hidden">
                   <DropdownMenuLabel>Settings</DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem className="flex w-full gap-2">
                     <ModeToggle />
-                    Change theme
+                    Змінити тему
                   </DropdownMenuItem>
                 </div>
               </DropdownMenuContent>

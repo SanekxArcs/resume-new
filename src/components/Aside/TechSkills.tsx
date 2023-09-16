@@ -7,37 +7,31 @@ import { Badge } from "@/components/ui/badge";
 
 const TechSkills = () => {
   const techs = [
-    "HTML",
-    "CSS",
-    "SASS/LESS",
-    "Responsive",
-    "Adaptive",
-    "JavaScript",
-    "TypeScript",
-    "React.JS",
-    "Vite",
-    "Next.js",
-    "Redux",
-    "REST API",
-    "Git/GitHub",
-    "Firebase",
-    "Figma",
-    "Photoshop",
-    "AI",
-    "Other ...",
+    "Робота з кадром",
+    "Навички композиційного рішення",
+    "Вибір вдалого ракурсу",
+    "Створення креативних зображень",
+    "Налаштування обладнання",
+    "Робота зі світлом та схемами світла",
+    "Нозробка плану освітлення",
+    "Підбір та налаштування світлового обладнання",
+    "Створення стилю та концепту",
+    "Праця з комбінованими видами зйомки",
+    "Праця зі звуком: налаштування та запис аудіо",
+    "Монтаж та кольорокорекція відзнятого матеріалу"
   ];
 
   return (
     <>
       <div>
         <h3
-          className="flex items-center justify-start text-2xl font-semibold cursor-default select-none"
+          className="flex justify-start text-2xl font-semibold cursor-default select-none"
           title="This is a relevant tech skills, i real life a have many more other skills"
         >
           <Computer className="mr-2" />
-          Tech Skills
+          Навички
         </h3>
-        <ul className="flex flex-wrap gap-2 px-3">
+        <div className="flex flex-col items-start justify-start gap-2 px-3">
           {techs.map((tech, index) => (
             <Badge
               key={index}
@@ -47,7 +41,7 @@ const TechSkills = () => {
               {tech}
             </Badge>
           ))}
-        </ul>
+        </div>
       </div>
     </>
   );

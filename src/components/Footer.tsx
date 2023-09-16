@@ -1,14 +1,14 @@
-import Rodo from "./main/Rodo";
+// import Rodo from "./main/Rodo";
 
 const Footer = () => {
   return (
     <>
-      <Rodo />
+      {/* <Rodo /> */}
       <footer
         className={`print:hidden container mx-auto flex flex-col items-center justify-center px-4 py-2 mt-10 text-center rounded-tr-md rounded-tl-md backdrop-blur-md top-2 bg-primary/30 cursor-default select-none`}
       >
         <p className={`w-full p-2 mb-2 border-b border-emerald-950/30`}>
-          Thank you for visiting my page, I am waiting for you to contact
+          Дякую, що відвідали мою сторінку, чекатиму на ваш контакт для співпраці
         </p>
         <p>
           © 2023 Built by&nbsp;
@@ -17,7 +17,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sanekx Arcs
+            @Sanekx_Arcs
           </a>
         </p>
       </footer>

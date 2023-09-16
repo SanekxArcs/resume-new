@@ -1,7 +1,5 @@
 
 import { motion } from "framer-motion";
-
-
 import Contacts from "./Contacts";
 import TechSkills from "./TechSkills";
 import SoftSkills from "./SoftSkills";
@@ -22,7 +20,7 @@ const Aside = () => {
         className="col-span-4 px-4 lg:px-0 lg:pr-10"
       >
         <ProfilePhoto />
-        <div className="sticky flex flex-col gap-5 h-fit top-20">
+        <div className="flex flex-col gap-5 h-fit">
           <Contacts />
           <Separator />
           <Links />
@@ -33,8 +31,6 @@ const Aside = () => {
           <Separator />
           <SoftSkills />
           <Separator />
-          
-          
           <Interests />
           <Separator className="print:hidden"/>
           <Vcard />

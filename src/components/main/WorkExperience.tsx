@@ -1,4 +1,4 @@
-import { Briefcase, Building, Building2, CalendarClock, ExternalLink, MapPin } from "lucide-react";
+import { Briefcase, Building, Building2, CalendarClock, ExternalLink } from "lucide-react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 import { workExperience } from './../../db/db.json'
@@ -21,25 +21,17 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
          {elem.jobTitle}
        </h4>
      )}
-     <h5 className="flex items-center mb-1">
+     {elem.companyName? <h5 className="flex items-center mb-1">
        <Building className="w-5 h-5 mr-2 " />
        {elem.companyName}
-     </h5>
-     {elem.location ? (
-       <h6 className="flex items-center mb-1">
-         <MapPin className="w-5 h-5 mr-2 " />
-         {elem.location}
-       </h6>
-     ) : (
-       ""
-     )}
+     </h5> : ""}
 
      <time className="flex items-center mb-2 text-sm font-normal leading-none  ">
        <CalendarClock className="w-4 h-4 mr-2 " />
        {elem.duration}
      </time>
      <p className={`${elem.print ? "print:hidden" : ""} text-sm`}>
-       Short job description:
+       Короткий опис:
      </p>
      <ul
        className={`${
@@ -71,7 +63,7 @@ const WorkExperience = () => {
     <section id="work" className="cursor-default select-none scroll-m-16">
       <h3 className="flex items-center justify-start w-full py-4">
         <Building2 className="mr-2" />
-        Work experience
+        Досвід роботи
       </h3>
       <Separator className="mb-4" />
 

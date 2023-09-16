@@ -1,112 +1,68 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { Button } from "../ui/button";
 import { FileCode2, Link } from "lucide-react";
-import { Badge } from "../ui/badge";
-import { commercialProjects } from "./../../db/db.json";
-import { petProjects } from "./../../db/db.json";
+import pic1 from "./../../assets/DSC00264.webp";
+import pic2 from "./../../assets/DSC00496.webp";
+import pic3 from "./../../assets/DSC07871.webp";
+import pic4 from "./../../assets/DSC08748.webp";
+import pic5 from "./../../assets/DSC09671.webp"; // last
+// import pic10 from "./../../assets/IMG_3797.webp";
+import pic6 from "./../../assets/photo_2023-09-16_21-16-33.webp";
+import pic7 from "./../../assets/photo_2023-09-16_21-16-37.webp";
+import pic8 from "./../../assets/photo_2023-09-16_21-16-44.webp";
+import pic9 from "./../../assets/photo_2023-09-16_21-16-49.webp";
 
-interface WebsiteInfo {
-  title: string;
-  description: string;
-  features: string[];
-  technologies: string[];
-  url: string;
-}
 const Projects = () => {
+  // const photo = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic10, pic9, pic8];
 
-const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
-  return projectsArray.map((element: WebsiteInfo, index: number) => {
-    return (
-      <div
-        key={index}
-        className="flex col-span-1 transition-all duration-500 lg:last:col-span-2 last:block hover:scale-[1.02] hover:drop-shadow-md select-none"
-      >
-        <Card className="flex flex-col justify-between">
-          <CardHeader>
-            <CardTitle>{element.title}</CardTitle>
-            <CardDescription>{element.description}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Features:</p>
-            <ul className="flex flex-col gap-1 pl-5 list-disc rows">
-              {element.features.map((feature, index) => {
-                return (
-                  <li key={index} className="text-xs">
-                    {feature}
-                  </li>
-                );
-              })}
-            </ul>
-            <p className="pt-2">This project technologies:</p>
-            <ul className="flex flex-wrap gap-1 p-1">
-              {element.technologies.map((technology, index) => {
-                return <Badge key={index}>{technology}</Badge>;
-              })}
-            </ul>
-          </CardContent>
-          <CardFooter>
-            <Button asChild size="xxxs" variant="link">
-              <a href={element.url} target="_blank">
-                <Link className="w-4 h-4 mr-2" />
-                Link to live demo
-              </a>
-            </Button>
-          </CardFooter>
-        </Card>
-      </div>
-    );
-  });
-};
-
-const commercialElement = projectsElementsBuild(commercialProjects);
-const petElement = projectsElementsBuild(petProjects);
+  // const projectsElementsBuild = () => {
+  //   return photo.map((element: string, index: number) => {
+  //     return (
+  //       <div
+  //         key={index}
+  //         className=" transition-all duration-500 hover:drop-shadow-md select-none max-w-80 overflow-hidden max-h-[480px] rounded-md bg-slate-200 "
+  //       >
+  //         <img className="h-auto rounded" src={element} alt="" />
+  //       </div>
+  //     );
+  //   });
+  // };
+  // const photos = projectsElementsBuild();
 
   return (
     <section id="projects" className=" break-before-auto scroll-m-16">
       <Tabs defaultValue="Commercial" className="w-full">
         <h3 className="flex items-center justify-start select-none">
           <FileCode2 className="mr-2" />
-          Projects
+          Фото роботи
         </h3>
         <TabsList className="flex flex-col items-center justify-start w-full h-full md:flex-row print:hidden">
-          <TabsTrigger className="w-full" value="Commercial">
-            Commercial projects
-          </TabsTrigger>
-          <TabsTrigger className="w-full" value="pet">
-            Pet-projects
-          </TabsTrigger>
           <TabsTrigger className="w-full" value="all">
-            All
+            Показати
           </TabsTrigger>
           <TabsTrigger className="w-full" value="hide">
-            Hide all
+            Сховати
           </TabsTrigger>
         </TabsList>
         <TabsContent value="all">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            {commercialElement}
-            {petElement}
+          <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
+            <div className="grid grid-cols-5 grid-rows-2 gap-2">
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic1} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-3" src={pic5} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic2} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2 row-span-2" src={pic3} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic4} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic6} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic7} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic9} alt="" />
+            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2" src={pic8} alt="" />
+            {/* <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic10} alt="" /> */}
+          </div>
           </div>
         </TabsContent>
-        <TabsContent value="Commercial">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            {commercialElement}
-          </div>
+        <TabsContent value="hide">
+          
         </TabsContent>
-        <TabsContent value="pet">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            {petElement}
-          </div>
-        </TabsContent>
-        <TabsContent value="hide"></TabsContent>
       </Tabs>
 
       <Button
@@ -117,8 +73,8 @@ const petElement = projectsElementsBuild(petProjects);
       >
         <a href="https://o-d.netlify.app/" title="My web site o-d.netlify.app">
           <Link className="w-4 h-4 mr-2" />
-          Link to see all commercial and pet projects:&nbsp;
-          <span className="select-all">o-d.netlify.app</span>
+          Link to see all on:&nbsp;
+          <span className="select-all">m-t.netlify.app</span>
         </a>
       </Button>
     </section>

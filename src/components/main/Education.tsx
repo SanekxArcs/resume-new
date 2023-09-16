@@ -5,9 +5,9 @@ import { education } from "./../../db/db.json";
 const Education = () => {
   const educationElement = education.map((education, index) => (
     <div key={index}>
-      <h4>{education.institution}</h4>
-      <p>
-        <span className="font-medium">Specialization: </span>
+      <h4 className="text-lg">{education.institution}</h4>
+      <p className="text-base">
+        <span className="font-medium">Кафедра: </span>
         {education.specialization}
       </p>
     </div>
@@ -17,7 +17,7 @@ const Education = () => {
     <section id="education" className="scroll-m-16 cursor-default select-none">
       <h3 className=" flex items-center">
         <School className="mr-2" />
-        Education
+        Навчання
       </h3>
       <Separator className="my-4" />
       <div className="flex flex-col gap-5">{educationElement}</div>
