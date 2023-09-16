@@ -78,7 +78,7 @@
         }
     
         *::-webkit-scrollbar {
-          width: 10px;
+          width: 4px;
         }
     
         *::-webkit-scrollbar-track {
@@ -87,51 +87,8 @@
     
         *::-webkit-scrollbar-thumb {
           background-color: #aae9d2;
-          border-radius: 5px;
-          border: 2px solid #022c22;
+          border-radius: 2px;
+          border: 1px solid #022c22;
         }
 
-        h3 {
-          @apply pb-2 text-2xl font-medium;
-        }
-    
-        .h3WE {
-          @apply w-full pb-2 mt-5 mb-5 text-3xl font-medium border-b border-emerald-950/30;
-        }
-    
-        h4 {
-          @apply pb-1 text-xl font-medium;
-        }
-    
-        h5 {
-          @apply text-lg;
-        }
-    
-        h6 {
-          @apply text-sm font-light;
-        }
-    
-        p {
-          @apply text-lg;
-        }
-    
-        .date {
-          @apply font-light;
-        }
-    
-        .hover-btn {
-          @apply transition-all duration-200 rounded-md hover:ring-2 hover:ring-offset-2 hover:ring-emerald-500 hover:ring-offset-emerald-50;
-        }
-    
-        .liContacts {
-          @apply flex flex-row gap-2 items-center px-2 py-0.5 backdrop-blur-md;
-        }
-    
-        .loProjects {
-          @apply px-1 text-xs rounded-full ring-1 ring-emerald-600 bg-emerald-100 text-emerald-950;
-        }
-    
-        .liTechSkills {
-          @apply px-2 py-0.5 rounded-md bg-emerald-200/50 backdrop-blur-md cursor-default;
-        }
 }
