@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
-import { Building2, Contact, FileCode2, Menu, Save, School, FileBadge2  } from "lucide-react";
+import { Building2, Contact, FileCode2, Menu, Save, School  } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import {
   DropdownMenu,
