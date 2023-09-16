@@ -8,7 +8,7 @@ const MainHead = () => {
     <>
       <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
         <p className="lg:hidden">Про мене:</p>
-        <motion.h1 className="text-5xl font-medium lg:text-6xl">
+        <motion.h1 className="text-5xl font-medium lg:text-6xl mb-4 ">
           {headInformation.name}
         </motion.h1>
         <motion.h2

@@ -8,7 +8,7 @@ const Contacts = () => {
   return (
     <>
       <div id="contacts">
-        <h3 className=" rounded-md cursor-default select-none scroll-p-16">
+        <h3 className=" rounded-md cursor-default select-none scroll-m-52">
           <Contact2 className="mr-2" />
           Контакти
         </h3>

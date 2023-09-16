@@ -16,7 +16,7 @@ const SoftSkills = () => {
         >
           <MessageCircle className="mr-2" /> Комунікативні навички
         </h3>
-        <ul className="flex flex-col gap-1 px-3 pl-5 text-sm list-disc list-inside">
+        <ul className="flex flex-col gap-1 pr-3 md:pl-10 pl-7 text-sm list-disc list-outside">
           {softSkillsElements}
         </ul>
       </div>

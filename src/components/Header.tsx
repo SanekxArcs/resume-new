@@ -46,9 +46,9 @@ const Header = () => {
 
             <div className="flex flex-col items-start justify-center">
               <p className="font-semibold">{headInformation.name}</p>
-              <p className="text-sm text-secondary">
+              {/* <p className="text-sm text-secondary">
                 {headInformation.work}
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="flex items-center gap-2 w-fit">
@@ -71,7 +71,7 @@ const Header = () => {
                     asChild
                     className="justify-start w-full"
                   >
-                    <a href="#contacts">
+                    <a href="#">
                       <Contact className="w-4 h-4 mr-2" />
                       Контакти
                     </a>

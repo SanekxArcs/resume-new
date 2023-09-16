@@ -5,7 +5,7 @@ import TechSkills from "./TechSkills";
 import SoftSkills from "./SoftSkills";
 import Language from "./Language";
 import Links from "./Links";
-import Interests from "./Interests";
+// import Interests from "./Interests";
 import ProfilePhoto from "./ProfilePhoto";
 import Vcard from "./Vcard";
 import { Separator } from "../ui/separator";
@@ -30,8 +30,8 @@ const Aside = () => {
           <TechSkills />
           <Separator />
           <SoftSkills />
-          <Separator />
-          <Interests />
+          {/* <Separator />
+          <Interests /> */}
           <Separator className="print:hidden"/>
           <Vcard />
         </div>

@@ -52,7 +52,7 @@ const Links = () => {
           className="flex items-center justify-start cursor-default select-none "
           title="First links i can share with you you can also google me and find more about me"
         >
-          <Link className="mr-2" /> Силки
+          <Link className="mr-2" /> Посилання
         </h3>
         <div className="flex flex-col items-start justify-start">
           {linkElements}
