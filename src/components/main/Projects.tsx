@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className=" break-before-auto scroll-m-16">
-      <Tabs defaultValue="Commercial" className="w-full">
+      <Tabs defaultValue="all" className="w-full">
         <h3 className="flex items-center justify-start select-none">
           <FileCode2 className="mr-2" />
           Фото роботи
@@ -47,22 +47,56 @@ const Projects = () => {
         <TabsContent value="all">
           <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
             <div className="grid grid-cols-5 grid-rows-2 gap-2">
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic1} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-3" src={pic5} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic2} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2 row-span-2" src={pic3} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic4} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic6} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic7} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic9} alt="" />
-            <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2" src={pic8} alt="" />
-            {/* <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic10} alt="" /> */}
-          </div>
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic1}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-3"
+                src={pic5}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic2}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2 row-span-2"
+                src={pic3}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic4}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic6}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic7}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                src={pic9}
+                alt=""
+              />
+              <img
+                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2"
+                src={pic8}
+                alt=""
+              />
+              {/* <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic10} alt="" /> */}
+            </div>
           </div>
         </TabsContent>
-        <TabsContent value="hide">
-          
-        </TabsContent>
+        <TabsContent value="hide"></TabsContent>
       </Tabs>
 
       <Button
