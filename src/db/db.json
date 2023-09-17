@@ -390,7 +390,7 @@
     },
     {
       "title": "Webpage - Resume/CV",
-      "description": "Site Resume - make for peoples their CV online and pdf ready, my Design of ",
+      "description": "Site Resume - make for peoples their CV online and pdf ready",
       "features": ["Design", "Fully Responsive", "Semantic", "Accordion"],
       "technologies": ["HTML", "Tailwind CSS", "React", "Figma", "Photoshop"],
       "url": "https://l-i.netlify.app/"
