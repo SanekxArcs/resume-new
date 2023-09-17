@@ -17,7 +17,7 @@ const Interests = () => {
           <Info className="mr-2" />
           Інтереси
         </h3>
-        <ul className="flex flex-col gap-1 px-3">
+        <ul className="flex flex-col gap-1 pr-3 text-sm list-disc list-outside md:pl-10 pl-7">
           {interestsElements}
         </ul>
       </div>

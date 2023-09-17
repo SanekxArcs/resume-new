@@ -5,26 +5,26 @@
     "location": "Київ, Україна"
   },
   "interests": [
-    "Machine learning",
-    "3D Modeling",
-    "Inventing new",
-    "Read books/blog news in IT",
-    "Tech innovations"
+    "Мистецтво та культура",
+    "Історія",
+    "Обожнюю читати",
+    "Велоспорт ",
+    "Астрономія ",
+    "Кемпінг",
+    "Мехатроника",
+    "Прикладна оптика"
   ],
   "languages": {
     "english": "A1-A2",
     "ukrainian": "Рідна"
   },
   "softSkills": [
-    "Відповідальність",
-    "Уважність до деталей",
-    "Праця у команді",
-    "Координування знімального процесу",
-    "Швидке знаходження рішень",
-    "Стресостійкість",
-    "Неконфліктність",
-    "Доброзичливість",
-    "Відкритість"
+    "У своїй роботі я відповідальна та уважна до деталей зйомки ",
+    "Вмію працювати у команді та координувати роботу знімального процесу",
+    "Не маю труднощів при спілкуванні з людьми будь-якого статусу",
+    "Досвід зйомок в умовах нестабільного робочого дня ",
+    "Досвід зйомок без втрати ефективності при неодноразовій реорганізації знімального процесу",
+    "Індивідуальний підхід до кожного проєкту"
   ],
   "education": [
     {
@@ -37,451 +37,21 @@
     "work": "Відеоорператорка та Фотографиня",
     "about": "Вже більше 5 років я знімаю комерційні проєкти для малого та середнього бізнесу, створюю креативний контент для соціальних мереж, а також знімаю документальні проєкти та ютуб шоу. Я знайшла своє покликання у мистецтві, маю профільну освіту та кожен день розвиваюсь і вдосконалюю свої навички. Я обожнюю фотографію та кіно і вивчаю їх на рівні видатних митців, я не просто знімаю, а передаю почуття, сенс, емоцію, мить."
   },
-  "petProjects": [
-    {
-      "title": "Book Database Website",
-      "description": "Website with a book database. Data is fetched from a server that responds to various actions.",
-      "features": [
-        "Database updates",
-        "Adding books",
-        "Deleting books",
-        "Editing books",
-        "Adding to favorites"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React.js",
-        "Tailwind CSS",
-        "Vite"
-      ],
-      "url": "https://demo-book-list.netlify.app/"
-    },
-    {
-      "title": "Startupz Portfolio",
-      "description": "Portfolio website designed as a test task according to the pixel-perfect layout provided by Company .",
-      "features": [
-        "Pixel-perfect layout implementation",
-        "Portfolio showcase"
-      ],
-      "technologies": ["HTML", "CSS", "Tailwind CSS", "React.js", "JavaScript"],
-      "url": "https://starupz.netlify.app/"
-    },
-    {
-      "title": "Bankist",
-      "description": "Portfolio website with animations and a slider, implemented in vanilla JavaScript. Created as a homework assignment for a JavaScript course.",
-      "features": ["Animations", "Slider", "Modal window on timer"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://bankist-o-d.netlify.app/"
-    },
-    {
-      "title": "Bankist WebApp Demo",
-      "description": "Demo of a banking application website. Users can log in, make transfers, and sort between existing accounts.",
-      "features": ["User login (js, 1111)", "Money transfers", "Account sorting"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://bankist-app-o-d.netlify.app/"
-    },
-    {
-      "title": "Maply",
-      "description": "Service website for storing your favorite spots or bike trips.",
-      "features": ["Spot and trip storage", "Local storage for history", "Calculations"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://maply-o-d.netlify.app/"
-    },
-    {
-      "title": "Transliteration Plugin",
-      "description": "A Google Chrome plugin that transliterates letters between Latin and English when you forget to switch the language input.",
-      "features": [
-        "Transliteration of Latin to English",
-        "Transliteration of English to Latin",
-        "Google Chrome plugin"
-      ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://transliteration-en-to-ua.netlify.app/"
-    },
-    {
-      "title": "Employee Accounting App",
-      "description": "Website application for managing employee records, including adding, deleting, editing, awarding bonuses, sorting, and searching.",
-      "features": [
-        "Employee record management",
-        "Adding and deleting employees",
-        "Editing employee information",
-        "Awarding bonuses",
-        "Sorting",
-        "Search"
-      ],
-      "technologies": ["HTML", "CSS", "React.js", "Tailwind CSS", "JavaScript"],
-      "url": "https://app-accounting-employees.netlify.app/"
-    },
-    {
-      "title": "Number Guessing Game",
-      "description": "A game where you need to guess a number within 20 attempts. Includes a ranking system.",
-      "features": ["Number guessing within 20 attempts", "Ranking system", "Fun design"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://game-od.netlify.app/"
-    },
-    {
-      "title": "Dice Rolling Game",
-      "description": "A game where players take turns rolling dice, and the points are added up. If a 1 is rolled, the points are reset, and the turn passes to the other player.",
-      "features": [
-        "Turn-based dice rolling",
-        "Points accumulation",
-        "Reset on rolling a 1",
-        "Multiplayer"
-      ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://game-dice-od.netlify.app/"
-    },
-    {
-      "title": "Omnifood",
-      "description": "A website showcasing healthy eating, built with clean HTML and CSS.",
-      "features": ["Healthy eating showcase", "Clean HTML and CSS"],
-      "technologies": ["HTML", "CSS"],
-      "url": "https://omnifood-od.netlify.app/"
-    },
-    {
-      "title": "3D Visualization Portfolio",
-      "description": "A portfolio website showcasing 3D visualizations of solar panels on real photos with an accuracy of up to 5 cm.",
-      "features": [
-        "3D visualizations of solar panels",
-        "Accuracy up to 5 cm",
-        "Portfolio showcase",
-        "Gallery"
-      ],
-      "technologies": ["HTML", "CSS", "3D modeling software"],
-      "url": "https://od-3d-visualisation.netlify.app/"
-    },
-    {
-      "title": "Personal Business Card Website",
-      "description": "A business card website with contact information, created using pure JavaScript.",
-      "features": ["Contact information", "Pure JavaScript implementation"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://oleksandr-dzisiak.netlify.app/"
-    },
-    {
-      "title": "QR Code VCard Generator",
-      "description": "A website for creating QR codes with contact information.",
-      "features": ["QR code generation", "Contact information input"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://qr-coge-vcard-generator.netlify.app/"
-    },
-    {
-      "title": "Password Generator",
-      "description": "A website for creating unique passwords and storing their history.",
-      "features": ["Password generation", "Password history storage"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://password-generator-od.netlify.app/"
-    },
-    {
-      "title": "Portfolio Testing Website",
-      "description": "A portfolio website created for testing one's skills.",
-      "features": ["Skill testing", "Portfolio showcase"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://actove-box.netlify.app/"
-    },
-    {
-      "title": "Portfolio Testing Website 2",
-      "description": "A portfolio website created for testing one's skills.",
-      "features": ["Skill testing", "Portfolio showcase"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://merx-sa.netlify.app/"
-    },
-    {
-      "title": "Skill Testing Website",
-      "description": "A website created with the goal of testing one's skills.",
-      "features": ["Skill testing"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://mogo-sa.netlify.app/"
-    },
-    {
-      "title": "JavaScript Drum Kit",
-      "description": "A website that plays sounds when keys are pressed, created for testing one's skills.",
-      "features": ["Sound playback on key press", "Skill testing"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://js-drum-kit-sanekx.netlify.app/"
-    },
-    {
-      "title": "Sushi Shop",
-      "description": "Creation of an example store and shopping cart where you can add products, and everything is calculated.",
-      "features": [
-        "Online store setup",
-        "Shopping cart functionality",
-        "Automatic calculation of items"
-      ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://sushi-shop.netlify.app/"
-    },
-    {
-      "title": "Tip Calculator",
-      "description": "An extended calculator with the functionality to split the bill among multiple people and assign each person's share.",
-      "features": [
-        "Bill splitting",
-        "Individual cost assignment",
-        "Tip calculation"
-      ],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://tip-calculator-many-peoples.netlify.app/"
-    },
-    {
-      "title": "Tip Calculation Website",
-      "description": "A website created for a Frontend Mentor challenge.",
-      "features": ["Frontend Mentor challenge project"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://tip-calculation-sa.netlify.app/"
-    },
-    {
-      "title": "Simple To do list",
-      "description": "A very basic notepad with the ability to add or delete notes.",
-      "features": ["Note addition", "Note deletion"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://t-d.netlify.app/"
-    },
-    {
-      "title": "Test Task",
-      "description": "A test task related to my internet shop project.",
-      "features": ["Test task assignment"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://moyo-test-task.netlify.app/"
-    },
-    {
-      "title": "Modal Testing",
-      "description": "First testing of modal windows on a webpage.",
-      "features": ["Modal window testing"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://modal-test-od.netlify.app/"
-    },
-    {
-      "title": "Frontend Mentor Task",
-      "description": "A task from the Frontend Mentor website, executed with a focus on achieving a pixel-perfect design.",
-      "features": [
-        "Frontend Mentor task",
-        "Pixel-perfect design implementation"
-      ],
-      "technologies": ["HTML", "CSS"],
-      "url": "https://test-card-od.netlify.app/"
-    }
-  ],
-  "commercialProjects": [
-    {
-      "title": "Solar Sense",
-      "description": "Corporate Websites - The site was designed to showcase the company in the renewable energy space on the Internet. Branding was created, as well as the site from scratch to the state it is today.",
-      "features": [
-        "Multi-Page SPA",
-        "Fully Responsive",
-        "GTmetrix: A",
-        "Calculator",
-        "Validation"
-      ],
-      "technologies": [
-        "Vite",
-        "React.js",
-        "Tailwind CSS",
-        "JavaScript",
-        "React Router",
-        "Host LH.pl"
-      ],
-      "url": "http://solarsense.pl/"
-    },
-    {
-      "title": "LIBERTY IMMIGRATION",
-      "description": "Bussines card - The website is a business card landing page of a company dealing with legalization of foreigners in Poland. The site was created from scratch and the design accommodates two languages, Ukrainian and Belarusian.",
-      "features": [
-        "Animation when element is visible",
-        "Fully Responsive",
-        "Contact form",
-        "UA and BY languages",
-        "GTmetrix: A"
-      ],
-      "technologies": [
-        "React.js",
-        "Tailwind CSS",
-        "Netlify",
-        "JavaScript",
-        "Custom Hooks"
-      ],
-      "url": "https://l-i.netlify.app/"
-    },
-    {
-      "title": "UWP Digital",
-      "description": "Only the first main page of the site was created using the Pixel Perfect layout, and then it was handed over to the team.",
-      "features": [
-        "Made first page",
-        "Fully Responsive",
-        "Contact form",
-        "Semantic",
-        "Slider",
-        "Accordion",
-        "Modal"
-      ],
-      "technologies": ["HTML", "Tailwind CSS"],
-      "url": "https://uwp.digital/en"
-    },
-    {
-      "title": "Fun Quest",
-      "description": "Company website - Based on a template, the template was modified according to the client's needs, I also filled the entire site with content and customized it according to the client's needs.",
-      "features": [
-        "Remade WP template",
-        "Fully Responsive",
-        "Contact form",
-        "Slider",
-        "CMS"
-      ],
-      "technologies": ["HTML", "CSS", "SASS", "JavaScript", "WordPress", "PHP"],
-      "url": "https://fq.ua/"
-    },
-    {
-      "title": "Belavtodor UA",
-      "description": "Corporate Websites - I created the site and all its elements according to the designer's layout.",
-      "features": [
-        "Fully Responsive",
-        "Semantic",
-        "Contact form",
-        "Slider",
-        "Accordion",
-        "Modal"
-      ],
-      "technologies": ["HTML", "CSS", "SASS"],
-      "url": "https://web.archive.org/web/20210618203112/https://belautodor-ua.com/"
-    },
-    {
-      "title": "Eco-smart",
-      "description": "E-commerce - Site redesign, provide an admin panel for content management, customization for all types of devices",
-      "features": ["Design", "Fully Responsive", "Semantic"],
-      "technologies": ["HTML", "CSS", "WP", "Photoshop"],
-      "url": "https://eco-smart.com.ua/"
-    },
-    {
-      "title": "Club Smart Mam",
-      "description": "News portal - Creating a modern design for the Smart Mom Club news portal, site creation, provide an admin panel for content management, customization for all types of devices",
-      "features": [
-        "Fully Responsive",
-        "Contact form",
-        "Semantic",
-        "Forum",
-        "Accordion",
-        "Modal"
-      ],
-      "technologies": ["HTML", "CSS", "SASS", "JavaScript", "WordPress", "PHP"],
-      "url": "https://www.smartmama.com.ua/"
-    },
-    {
-      "title": "Plenum",
-      "description": "Business card-page - Creation of a unique design and programming of a business card website for a legal association.",
-      "features": [
-        "Create a unique design for the site",
-        "Create a blog",
-        "CRM",
-        "Accommodate all types of devices"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
-        "SASS",
-        "JavaScript",
-        "WordPress",
-        "PhotoShop"
-      ],
-      "url": "https://l-i.netlify.app/"
-    },
-    {
-      "title": "Webpage - Resume/CV",
-      "description": "Site Resume - make for peoples their CV online and pdf ready, my Design of ",
-      "features": ["Design", "Fully Responsive", "Semantic", "Accordion"],
-      "technologies": ["HTML", "Tailwind CSS", "React", "Figma", "Photoshop"],
-      "url": "https://l-i.netlify.app/"
-    }
-  ],
-  "courses": [
-    {
-      "title": "The Ultimate React Course 2023: React, Redux & More",
-      "platform": "Udemy by Jonas Schmedtmann",
-      "date": "07.2023",
-      "badges": [
-        "React",
-        "Redux",
-        "Context API",
-        "React Query",
-        "Redux Toolkit",
-        "Advanced patterns"
-      ],
-      "visibleOnCV": true
-    },
-    {
-      "title": "JavaScript + React - from zero to the result",
-      "platform": "Udemy by Ivan Petrychenko",
-      "date": "02.2023",
-      "badges": [
-        "React",
-        "JavaScript",
-        "REST API",
-        "Redux Toolkit",
-        "JSON",
-        "Firebase"
-      ],
-      "visibleOnCV": true
-    },
-    {
-      "title": "The Complete JavaScript Course 2022: From Zero to Expert!",
-      "platform": "Udemy by Jonas Schmedtmann",
-      "date": "10.2022",
-      "badges": ["JavaScript", "AJAX", "API", "Git", "Parcel", "ES6+"],
-      "visibleOnCV": true
-    },
-    {
-      "title": "Build a responsive real-world website with HTML and CSS",
-      "platform": "Udemy by Jonas Schmedtmann",
-      "date": "09.2022",
-      "badges": ["HTML", "CSS", "Flexbox", "Grid", "Sass", "Animations"],
-      "visibleOnCV": true
-    },
-    {
-      "title": "Java Script",
-      "platform": "Grasshopper by Google",
-      "date": "07.2022",
-      "badges": ["JavaScript"],
-      "visibleOnCV": true
-    },
-    {
-      "title": "HTML, CSS, JS. Professional website layout.",
-      "platform": "HTML Academy",
-      "date": "12.2019",
-      "badges": ["HTML", "CSS"],
-      "visibleOnCV": true
-    },
-    {
-      "title": "Basics of digital marketing",
-      "platform": "Digital workshop by Google",
-      "date": "10.2019",
-      "badges": ["Marketing", "SEO", "Analyses"],
-      "visibleOnCV": true
-    },
-    {
-      "title": "Mounting Technician Photovoltaic Systems.",
-      "platform": "EcoProjekt i CW Lundberg",
-      "date": "08.2021",
-      "badges": ["PV-mounting systems"],
-      "visibleOnCV": false
-    },
-    {
-      "title": "Thanks for the special conscientiousness and commitment to everyday work",
-      "platform": "Piotr Tokarski President GREEN SMART ENERGY sp. k.",
-      "date": "11.2021",
-      "badges": ["Honors & Awards"],
-      "visibleOnCV": false
-    }
-  ],
   "workExperience": [
     {
       "jobTitle": "Оператор постановник документального кіно 'Фелікс'",
       "companyName": "FELIX Production",
       "duration": "07.2022 – 10.2022",
       "description": [
-        "Виконувала обовязки головного оператора ппрєкту",
-        "Розробка режисерського сценарію та візуального стилю",
+        "Виконувала обовязки головного оператора проєкту",
+        "З командою розробила режисерський сценарій та візуальний стилі майбутньої кінокартини ",
         "Пошук та освоєння локацій для зйомок",
+        "Планувала логістику знімання ",
         "Складання технічного листу, планування зйомок",
-        "Робота на локації, робота зі знімальним обладнанням, контроль відзнятого матеріалу"
+        "Робота на локації, робота зі знімальним обладнанням, контроль відзнятого матеріалу",
+        "Зйомка зі штучним та натуральним світлом ",
+        "Взаємоспівпрацця з героями фільму для досягнення ідей фільму",
+        "Переглядання кадрів і затвердження їх на монтаж"
       ],
       "website": "https://www.youtube.com/watch?v=0-HzW7RGm2o",
       "websiteName": "@FELIX.Production",
@@ -504,8 +74,8 @@
       "print": false
     },
     {
-      "jobTitle": "Контент майкер",
-      "companyName": "Kazo",
+      "jobTitle": "Відеомейкер",
+      "companyName": "Cтоматологічна клініка 'Kazo'",
       "duration": "03.2022 – 06.2023",
       "description": [
         "Планування вмісту сторінки",
@@ -515,9 +85,10 @@
         "Обробка відео",
         "Постійне вдосконалення контенту",
         "Пошук нових ідей",
-        "Привертання аудиторії"
+        "Збільшення конвектації на 40%",
+        "Приріст аудиторії на 32%"
       ],
-      "website": "https://www.instagram.com/kazo.younique/?igshid=MzRlODBiNWFlZA%3D%3D",
+      "website": "https://instagram.com/kazo.younique?igshid=MzRlODBiNWFlZA==",
       "websiteName": "@kazo.younique",
       "print": false
     },
@@ -526,11 +97,13 @@
       "companyName": "Телеканал “1+1”",
       "duration": "2020 – 2022",
       "description": [
-        "Зйомка новинних сюжетів",
-        "Підготовка до зйомки",
-        "Налаштування обладнання",
-        "Робота з кадром та світлом на локаціі",
-        "Пошук ексклюзивного матеріалу для сюжетів"
+        "Організація робочого процесу з журналістами ",
+        "Зйомка новинних сюжетів ",
+        "Зйомка новинних інтерв'ю",
+        "Виїзд на місце подій",
+        "Трансляція прямого ефіру з місця подій ",
+        "Робота з кадром та світлом ",
+        "Пошук ексклюзивного матеріалу"
       ],
       "website": "https://1plus1.ua/",
       "websiteName": "1plus1.ua",
