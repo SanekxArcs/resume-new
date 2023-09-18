@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className=" break-before-auto scroll-m-16">
-      <Tabs defaultValue="all" className="w-full">
+      <Tabs defaultValue="photo" className="w-full">
         <h3 className="flex items-center justify-start select-none">
           <FileCode2 className="mr-2" />
           Фото роботи
@@ -49,14 +49,14 @@ const Projects = () => {
         </TabsList>
         <TabsContent value="photo">
           <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
-            <div className="grid grid-cols-5 grid-rows-3 gap-1 sm:gap-2">
+            <div className="grid grid-cols-1 place-content-center sm:grid-cols-5 sm:grid-rows-3 gap-1 sm:gap-2">
               <img
                 className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic1}
                 alt=""
               />
               <img
-                className="object-cover h-full col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1 "
+                className="object-cover h-full sm:col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1 "
                 src={pic5}
                 alt=""
               />
@@ -66,7 +66,7 @@ const Projects = () => {
                 alt=""
               />
               <img
-                className="object-cover h-full col-span-2 row-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover h-full sm:col-span-2 sm:row-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic3}
                 alt=""
               />
@@ -91,7 +91,7 @@ const Projects = () => {
                 alt=""
               />
               <img
-                className="object-cover h-full col-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover h-full sm:col-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic8}
                 alt=""
               />
@@ -100,7 +100,10 @@ const Projects = () => {
           </div>
         </TabsContent>
         <TabsContent value="video">
-          
+          <div className="w-full flex gap-2 flex-col">
+            <div className="aspect-video bg-slate-500 rounded-md"> tetx</div>
+            <div className="aspect-video bg-slate-500">tetx</div>
+          </div>
         </TabsContent>
         <TabsContent value="hide"></TabsContent>
       </Tabs>
