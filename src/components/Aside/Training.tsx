@@ -1,6 +1,4 @@
 import { ExternalLink, FileBadge2 } from "lucide-react";
-import { Separator } from "../ui/separator";
-import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 
 
@@ -68,7 +66,6 @@ const Training = () => {
         <FileBadge2 className="mr-2 " />
         Досягнення
       </h3>
-      {/* <Separator className="mb-4" /> */}
       <ul className="flex flex-col gap-1 pr-3 text-sm list-disc list-outside md:pl-10 pl-7">
         {coursesElements}
       </ul>
