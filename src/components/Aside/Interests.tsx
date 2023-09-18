@@ -9,7 +9,7 @@ const Interests = () => {
 
   return (
     <>
-      <div className="cursor-default select-none break-before-auto print:hidden">
+      <div className="cursor-default select-none break-before-auto">
         <h3
           className="flex items-center justify-start "
           title="Show my relevant interests, have many other"

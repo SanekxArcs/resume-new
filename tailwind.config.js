@@ -29,10 +29,10 @@ module.exports = {
           "2px 0px 0px rgba(255, 255, 255, 1)",
         ],
         "5xl": [
-          "1px 1px 0px rgba(255, 255, 255, 1)",
-          "-1px -1px 0px rgba(255, 255, 255, 1)",
-          "-1px 1px 0px rgba(255, 255, 255, 1)",
-          "1px -1px 0px rgba(255, 255, 255, 1)",
+          "0px 1px 0px rgba(255, 255, 255, 1)",
+          "0px -1px 0px rgba(255, 255, 255, 1)",
+          "-1px 0px 0px rgba(255, 255, 255, 1)",
+          "1px 0px 0px rgba(255, 255, 255, 1)",
         ],
       },
       screens: {

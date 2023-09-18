@@ -35,9 +35,9 @@ const Aside = () => {
           <Separator />
           <Skills/>
           <Separator />
-          <Interests />
-          <Separator />
           <Training/>
+          <Separator />
+          <Interests />
           <Separator className="print:hidden"/>
           <Vcard />
         </div>

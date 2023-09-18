@@ -36,7 +36,7 @@ const Projects = () => {
           <FileCode2 className="mr-2" />
           Фото роботи
         </h3>
-        <TabsList className="flex flex-col items-center justify-start w-full h-full md:flex-row print:hidden">
+        <TabsList className="flex flex-row items-center justify-start w-full h-full print:hidden">
           <TabsTrigger className="w-full" value="all">
             Показати
           </TabsTrigger>
@@ -48,51 +48,51 @@ const Projects = () => {
           <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
             <div className="grid grid-cols-5 grid-rows-2 gap-2">
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic1}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-3"
+                className="object-cover h-full col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic5}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic2}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2 row-span-2"
+                className="object-cover h-full col-span-2 row-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic3}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic4}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic6}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic7}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic9}
                 alt=""
               />
               <img
-                className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300 col-span-2"
+                className="object-cover h-full col-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic8}
                 alt=""
               />
-              {/* <img className="h-full object-cover rounded-md hover:shadow-md hover:-translate-y-1 transition-all duration-300" src={pic10} alt="" /> */}
+              {/* <img className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1" src={pic10} alt="" /> */}
             </div>
           </div>
         </TabsContent>
