@@ -37,23 +37,26 @@ const Projects = () => {
           Фото роботи
         </h3>
         <TabsList className="flex flex-row items-center justify-start w-full h-full print:hidden">
-          <TabsTrigger className="w-full" value="all">
-            Показати
+          <TabsTrigger className="w-full" value="photo">
+            Фото
+          </TabsTrigger>
+          <TabsTrigger className="w-full" value="video">
+            Відео
           </TabsTrigger>
           <TabsTrigger className="w-full" value="hide">
             Сховати
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="all">
+        <TabsContent value="photo">
           <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
-            <div className="grid grid-cols-5 grid-rows-2 gap-2">
+            <div className="grid grid-cols-5 grid-rows-3 gap-1 sm:gap-2">
               <img
                 className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic1}
                 alt=""
               />
               <img
-                className="object-cover h-full col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover h-full col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1 "
                 src={pic5}
                 alt=""
               />
@@ -95,6 +98,9 @@ const Projects = () => {
               {/* <img className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1" src={pic10} alt="" /> */}
             </div>
           </div>
+        </TabsContent>
+        <TabsContent value="video">
+          
         </TabsContent>
         <TabsContent value="hide"></TabsContent>
       </Tabs>
