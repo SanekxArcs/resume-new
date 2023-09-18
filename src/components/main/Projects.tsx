@@ -51,47 +51,47 @@ const Projects = () => {
           <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
             <div className="grid grid-cols-1 place-content-center sm:grid-cols-5 sm:grid-rows-3 gap-1 sm:gap-2">
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic1}
                 alt=""
               />
               <img
-                className="object-cover h-full sm:col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1 "
+                className="object-cover w-full h-full sm:col-span-3 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1 "
                 src={pic5}
                 alt=""
               />
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic2}
                 alt=""
               />
               <img
-                className="object-cover h-full sm:col-span-2 sm:row-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full sm:col-span-2 sm:row-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic3}
                 alt=""
               />
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic4}
                 alt=""
               />
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic6}
                 alt=""
               />
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic7}
                 alt=""
               />
               <img
-                className="object-cover h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic9}
                 alt=""
               />
               <img
-                className="object-cover h-full sm:col-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
+                className="object-cover w-full h-full sm:col-span-2 transition-all duration-300 rounded-md hover:shadow-md hover:-translate-y-1"
                 src={pic8}
                 alt=""
               />
@@ -101,8 +101,8 @@ const Projects = () => {
         </TabsContent>
         <TabsContent value="video">
           <div className="w-full flex gap-2 flex-col">
-            <div className="aspect-video bg-slate-500 rounded-md"> tetx</div>
-            <div className="aspect-video bg-slate-500">tetx</div>
+            <div className="aspect-video bg-slate-500 rounded-md"> video</div>
+            <div className="aspect-video bg-slate-500">video</div>
           </div>
         </TabsContent>
         <TabsContent value="hide"></TabsContent>
