@@ -16,14 +16,8 @@ import pdf from './../assets/Oleksandr Dzisiak - Frontend CV.pdf'
 
 const Header = () => {
 
-  const downloadButton = (
-    <Button variant="outline" asChild className="justify-start w-full">
-      <a href={pdf} download type="pdf" rel="alternate">
-        <Save className="w-4 h-4 mr-2" />
-        Save CV in PDF
-      </a>
-    </Button>
-  );
+
+  const downloadButton = buttonPDF();
 
   return (
     <>
@@ -35,9 +29,9 @@ const Header = () => {
           className={`container print:hidden mx-auto px-4 sticky top-0 rounded-br-md rounded-bl-md bg-gradient-to-br w-full flex items-center justify-between from-primary/10 to-primary/70 backdrop-blur-md h-14 z-50`}
         >
           <div className="flex gap-2">
-            <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 rounded-full group drop-shadow-5xl bg-gradient-to-br from-primary/40 to-primary/70">
+            
+            <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 border-2 rounded-full border-primary group bg-gradient-to-br from-primary/40 to-primary/70">
               <img
-                className="w-10 h-10 drop-shadow-5xl"
                 src={myPhoto}
                 alt={headInformation.name}
                 title="Scan with your Phone and it automatically add my contact to you phone"
@@ -125,6 +119,9 @@ const Header = () => {
                     </a>
                   </Button>
                 </DropdownMenuItem>
+                <DropdownMenuItem className="sm:hidden">
+                  {downloadButton}
+                </DropdownMenuItem>
                 <DropdownMenuItem className="w-full sm:hidden"></DropdownMenuItem>
                 <div className="sm:hidden">
                   <DropdownMenuLabel>Settings</DropdownMenuLabel>
@@ -141,6 +138,15 @@ const Header = () => {
       </AnimatePresence>
     </>
   );
+
+  function buttonPDF () {
+    return <Button variant="outline" asChild className="justify-start w-full">
+      <a href={pdf} download type="pdf" rel="alternate">
+        <Save className="w-4 h-4 mr-2" />
+        Save CV in PDF
+      </a>
+    </Button>;
+  }
 };
 
 export default Header;

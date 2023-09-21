@@ -20,6 +20,8 @@ interface WebsiteInfo {
   technologies: string[];
   url: string;
 }
+
+
 const Projects = () => {
 
 const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
@@ -70,7 +72,7 @@ const commercialElement = projectsElementsBuild(commercialProjects);
 const petElement = projectsElementsBuild(petProjects);
 
   return (
-    <section id="projects" className=" break-before-auto scroll-m-16">
+    <section id="projects" className="sm:px-2 break-before-auto scroll-m-16">
       <Tabs defaultValue="Commercial" className="w-full">
         <h3 className="flex items-center justify-start select-none">
           <FileCode2 className="mr-2" />
@@ -91,7 +93,10 @@ const petElement = projectsElementsBuild(petProjects);
           </TabsTrigger>
         </TabsList>
         <TabsContent value="all">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
+          <div
+            id="#list-view"
+            className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch"
+          >
             {commercialElement}
             {petElement}
           </div>

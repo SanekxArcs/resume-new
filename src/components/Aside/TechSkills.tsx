@@ -1,31 +1,8 @@
 import { Computer } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-
-
-
-
+import { techs } from "./../../db/db.json";
 
 const TechSkills = () => {
-  const techs = [
-    "HTML",
-    "CSS",
-    "SASS/LESS",
-    "Responsive",
-    "Adaptive",
-    "JavaScript",
-    "TypeScript",
-    "React.JS",
-    "Vite",
-    "Next.js",
-    "Redux",
-    "REST API",
-    "Git/GitHub",
-    "Firebase",
-    "Figma",
-    "Photoshop",
-    "AI",
-    "Other ...",
-  ];
 
   return (
     <>

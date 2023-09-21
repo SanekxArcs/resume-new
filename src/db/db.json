@@ -26,6 +26,26 @@
     "Finding fast and good solutions.",
     "Good tasks understanding."
   ],
+  "techs": [
+    "HTML",
+    "CSS",
+    "SASS/LESS",
+    "Responsive",
+    "Adaptive",
+    "JavaScript",
+    "TypeScript",
+    "React.JS",
+    "Vite",
+    "Next.js",
+    "Redux",
+    "REST API",
+    "Git/GitHub",
+    "Firebase",
+    "Figma",
+    "Photoshop",
+    "AI",
+    "Other ..."
+  ],
   "education": [
     {
       "institution": "National Technikal University of Ukraine 'Igor Sikorsky Kyiv Politechnic Institute'",

@@ -2,12 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base {
-  html {
-    font-family: Montserrat,  system-ui, sans-serif;
-  }
-}
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -54,60 +49,66 @@
     --ring: 224.3 76.3% 48%;
   }
 }
- 
+
 @layer base {
+  html {
+    font-family: Montserrat, system-ui, sans-serif;
+  }
+
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   h3 {
-          @apply pb-2 text-2xl font-medium;
-        }
+    @apply pb-2 text-2xl font-medium;
+  }
 
-        h4 {
-          @apply pb-1 text-xl font-medium;
-        }
+  h4 {
+    @apply pb-1 text-xl font-medium;
+  }
 
-        h5 {
-          @apply text-lg;
-        }
+  h5 {
+    @apply text-lg;
+  }
 
-        h6 {
-          @apply text-sm font-light;
-        }
+  h6 {
+    @apply text-sm font-light;
+  }
 
-        p {
-          @apply text-lg;
-        }
+  p {
+    @apply text-lg;
+  }
 
-        * {
-          @apply border-border;
-        }
-    
-        body {
-          @apply bg-background text-foreground;
-        }
-    
-    
-        * {
-          scrollbar-width: thin;
-          scrollbar-color: #aae9d200 hsla(217, 33%, 17%, 0);
-        }
-    
-        *::-webkit-scrollbar {
-          width: 4px;
-        }
-    
-        *::-webkit-scrollbar-track {
-          background: hsla(217, 33%, 17%, 0);
-        }
-    
-        *::-webkit-scrollbar-thumb {
-          background-color: #aae9d200;
-          border-radius: 2px;
-          border: 1px solid #022c22;
-        }
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #aae9d200 hsla(217, 33%, 17%, 0);
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: hsla(217, 33%, 17%, 0);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #aae9d200;
+    border-radius: 2px;
+    border: 1px solid #022c22;
+  }
 
 }
