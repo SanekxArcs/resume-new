@@ -8,29 +8,27 @@ const ProjectsVideo = () => {
           autoplay: 0,
         },
       };
+      
+      const videos = [
+        "PevzjgVjWL4",
+        "xQYhu8bdbBg",
+        "dx_TbV2bSTI",
+        "aiHWty5tfgI",
+        "ZKfxjK8Shu8",
+      ];
   return (
     <>
       <div className="grid w-full py-5 md:grid-cols-2 gap-y-5">
-        <YouTube
-          videoId={"xQYhu8bdbBg"}
-          opts={opts}
-          className="mx-auto overflow-hidden rounded-lg"
-        />
-        <YouTube
-          videoId={"dx_TbV2bSTI"}
-          opts={opts}
-          className="mx-auto overflow-hidden rounded-lg"
-        />
-        <YouTube
-          videoId={"aiHWty5tfgI"}
-          opts={opts}
-          className="mx-auto overflow-hidden rounded-lg"
-        />
-        <YouTube
-          videoId={"ZKfxjK8Shu8"}
-          opts={opts}
-          className="mx-auto overflow-hidden rounded-lg"
-        />
+        {videos.map((item, index) => {
+          return (
+            <YouTube
+              key={index}
+              videoId={item}
+              opts={opts}
+              className="mx-auto overflow-hidden rounded-lg md:last:col-span-2"
+            />
+          );
+        })}
       </div>
     </>
   );

@@ -12,58 +12,58 @@ import pic9 from "./../../assets/photo_2023-09-16_21-16-49.webp";
 const ProjectsPhoto = () => {
   return (
     <>
-      <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
-        <p className="text-xs text-muted-foreground sm:hidden">
-          клікни по фото аби збільшити
+      <div className="flex flex-wrap justify-center gap-2 mx-auto ">
+        <p className="text-xs text-muted-foreground md:hidden">
+          Клікни по фото аби збільшити
         </p>
-        <div className="grid grid-cols-1 gap-1 place-content-center sm:grid-cols-5 sm:grid-rows-3 sm:gap-2">
+        <div className="grid grid-cols-1 gap-2 rounded-md place-content-center md:grid-cols-5 md:grid-rows-3 lg:p-2 bg-muted">
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic1}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 ease-in-out rounded-md sm:col-span-3 hover:shadow-md aspect-video hover:aspect-square sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 ease-in-out rounded-md md:col-span-3 hover:shadow-md aspect-video hover:aspect-square md:hover:aspect-auto"
             src={pic5}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic2}
             alt=""
           />
           <img
-            className="object-cover w-full h-full sm:col-span-2 sm:row-span-2 transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full md:col-span-2 md:row-span-2 transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic3}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic4}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic6}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic7}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic9}
             alt=""
           />
           <img
-            className="object-cover w-full h-full transition-all duration-1000 rounded-md sm:col-span-2 hover:shadow-md aspect-video hover:aspect-square sm:hover:aspect-auto"
+            className="object-cover w-full h-full transition-all duration-1000 rounded-md md:col-span-2 hover:shadow-md aspect-video hover:aspect-square md:hover:aspect-auto"
             src={pic8}
             alt=""
           />
           <img
-            className="object-cover sm:hidden w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
+            className="object-cover md:hidden w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] md:hover:aspect-auto"
             src={pic10}
             alt=""
           />

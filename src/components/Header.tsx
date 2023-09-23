@@ -20,7 +20,7 @@ const Header = () => {
     <Button variant="outline" asChild className="justify-start w-full">
       <a href={pdf} download type="pdf" rel="alternate">
         <Save className="w-4 h-4 mr-2" />
-        Зберегти резюме в PDF
+        Зберегти резюме
       </a>
     </Button>
   );
@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex gap-2">
             <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 border-2 rounded-full bg-gradient-to-br from-primary/40 to-primary/70">
               <img
-                className="w-10 h-10 "
+                className=""
                 src={myPhoto}
                 alt={headInformation.name}
                 title="Scan with your Phone and it automatically add my contact to you phone"
@@ -45,15 +45,12 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col items-start justify-center">
-              <p className="font-semibold">{headInformation.name}</p>
-              {/* <p className="text-sm text-secondary">
-                {headInformation.work}
-              </p> */}
+              <p className="text-sm font-semibold xs:text-base sm:text-lg md:text-xl">{headInformation.name}</p>
             </div>
           </div>
           <div className="flex items-center gap-2 w-fit">
-            <div className="hidden sm:block">{downloadButton}</div>
-            <div className="hidden sm:block">
+            <div className="hidden md:block">{downloadButton}</div>
+            <div className="">
               <ModeToggle />
             </div>
             <DropdownMenu>
@@ -113,27 +110,7 @@ const Header = () => {
                     </a>
                   </Button>
                 </DropdownMenuItem>
-                {/* <DropdownMenuItem>
-                  <Button
-                    variant="outline"
-                    asChild
-                    className="justify-start w-full"
-                  >
-                    <a href="#certification">
-                      <FileBadge2 className="w-4 h-4 mr-2" />
-                      Certification
-                    </a>
-                  </Button>
-                </DropdownMenuItem> */}
-                <DropdownMenuItem className="w-full sm:hidden"></DropdownMenuItem>
-                <div className="sm:hidden">
-                  <DropdownMenuLabel>Settings</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem className="flex w-full gap-2">
-                    <ModeToggle />
-                    Змінити тему
-                  </DropdownMenuItem>
-                </div>
+                <DropdownMenuItem>{downloadButton}</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
