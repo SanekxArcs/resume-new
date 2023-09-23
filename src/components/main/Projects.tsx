@@ -1,33 +1,10 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "../ui/button";
 import { FileCode2, Link } from "lucide-react";
-import pic1 from "./../../assets/DSC00264.webp";
-import pic2 from "./../../assets/DSC00496.webp";
-import pic3 from "./../../assets/DSC07871.webp";
-import pic4 from "./../../assets/DSC08748.webp";
-import pic5 from "./../../assets/DSC09671.webp"; // last
-import pic10 from "./../../assets/IMG_3797.webp";
-import pic6 from "./../../assets/photo_2023-09-16_21-16-33.webp";
-import pic7 from "./../../assets/photo_2023-09-16_21-16-37.webp";
-import pic8 from "./../../assets/photo_2023-09-16_21-16-44.webp";
-import pic9 from "./../../assets/photo_2023-09-16_21-16-49.webp";
+import ProjectsPhoto from "./projectsPhoto";
+import ProjectsVideo from "./projectsVideo";
 
 const Projects = () => {
-  // const photo = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic10, pic9, pic8];
-
-  // const projectsElementsBuild = () => {
-  //   return photo.map((element: string, index: number) => {
-  //     return (
-  //       <div
-  //         key={index}
-  //         className=" transition-all duration-500 hover:drop-shadow-md select-none max-w-80 overflow-hidden max-h-[480px] rounded-md bg-slate-200 "
-  //       >
-  //         <img className="h-auto rounded" src={element} alt="" />
-  //       </div>
-  //     );
-  //   });
-  // };
-  // const photos = projectsElementsBuild();
 
   return (
     <section id="projects" className=" break-before-auto scroll-m-16">
@@ -48,72 +25,10 @@ const Projects = () => {
           </TabsTrigger>
         </TabsList>
         <TabsContent value="photo">
-          <div className="flex justify-center max-w-[780px] flex-wrap gap-2 mx-auto">
-            <p className="text-xs text-muted-foreground sm:hidden">
-              клікни по фото аби збільшити
-            </p>
-            <div className="grid grid-cols-1 place-content-center sm:grid-cols-5 sm:grid-rows-3 gap-1 sm:gap-2">
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic1}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full sm:col-span-3 transition-all ease-in-out duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-square sm:hover:aspect-auto"
-                src={pic5}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic2}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full sm:col-span-2 sm:row-span-2 transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic3}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic4}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic6}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic7}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic9}
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-full sm:col-span-2 transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-square sm:hover:aspect-auto"
-                src={pic8}
-                alt=""
-              />
-              <img
-                className="object-cover sm:hidden w-full h-full transition-all duration-1000 rounded-md hover:shadow-md aspect-video hover:aspect-[9_/_16] sm:hover:aspect-auto"
-                src={pic10}
-                alt=""
-              />
-            </div>
-          </div>
+          <ProjectsPhoto />
         </TabsContent>
         <TabsContent value="video">
-          <div className="w-full flex gap-2 flex-col">
-            <div className="sm:aspect-video bg-slate-500 rounded-md">
-              {" "}
-              video
-            </div>
-            <div className="sm:aspect-video bg-slate-500">video</div>
-          </div>
+          <ProjectsVideo />
         </TabsContent>
         <TabsContent value="hide"></TabsContent>
       </Tabs>

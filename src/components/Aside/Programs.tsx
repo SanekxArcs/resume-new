@@ -1,15 +1,8 @@
 import { Computer } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { techs } from "../../db/db.json";
 
-const TechSkills = () => {
-  const techs = [
-    "Final Cut Pro",
-    "Adobe Premiere Pro",
-    "Adobe After Effects",
-    "Adobe Photoshop",
-    "Adobe Photoshop Lightroom",
-  ];
-
+const Programs = () => {
   return (
     <>
       <div>
@@ -36,4 +29,4 @@ const TechSkills = () => {
   );
 };
 
-export default TechSkills;
+export default Programs;

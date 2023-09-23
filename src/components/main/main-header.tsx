@@ -6,9 +6,9 @@ import { headInformation } from "./../../db/db.json";
 const MainHead = () => {
   return (
     <>
-      <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
+      <div id="top" className="cursor-default select-none">
         <p className="lg:hidden">Про мене:</p>
-        <motion.h1 className="text-5xl font-medium lg:text-6xl mb-4 ">
+        <motion.h1 className="mb-4 text-5xl font-medium lg:text-6xl ">
           {headInformation.name}
         </motion.h1>
         <motion.h2
