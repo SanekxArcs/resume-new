@@ -37,7 +37,8 @@ const Header = () => {
           <div className="flex gap-2">
             <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 border-2 rounded-full bg-gradient-to-br from-primary/40 to-primary/70">
               <img
-                className=""
+                width={"100%"}
+                height={"100%"}
                 src={myPhoto}
                 alt={headInformation.name}
                 title="Scan with your Phone and it automatically add my contact to you phone"
@@ -45,7 +46,9 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col items-start justify-center">
-              <p className="text-sm font-semibold xs:text-base sm:text-lg md:text-xl">{headInformation.name}</p>
+              <p className="text-sm font-semibold xs:text-base sm:text-lg md:text-xl">
+                {headInformation.name}
+              </p>
             </div>
           </div>
           <div className="flex items-center gap-2 w-fit">

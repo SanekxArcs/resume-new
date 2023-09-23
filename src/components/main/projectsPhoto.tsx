@@ -4,10 +4,10 @@ import pic3 from "./../../assets/DSC07871.webp";
 import pic4 from "./../../assets/DSC08748.webp";
 import pic5 from "./../../assets/DSC09671.webp"; // last
 import pic10 from "./../../assets/IMG_3797.webp";
-import pic6 from "./../../assets/photo_2023-09-16_21-16-33.webp";
-import pic7 from "./../../assets/photo_2023-09-16_21-16-37.webp";
+import pic7 from "./../../assets/photo_2023-09-24_00-18-36.webp";
 import pic8 from "./../../assets/photo_2023-09-16_21-16-44.webp";
-import pic9 from "./../../assets/photo_2023-09-16_21-16-49.webp";
+import pic9 from "./../../assets/photo_2023-09-24_00-18-56.webp";
+import pic6 from "./../../assets/photo_2023-09-24_00-18-45.webp";
 
 const ProjectsPhoto = () => {
   return (
