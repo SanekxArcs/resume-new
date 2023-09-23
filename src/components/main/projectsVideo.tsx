@@ -27,7 +27,7 @@ const ProjectsVideo = () => {
           className="mx-auto overflow-hidden rounded-lg"
         />
         <YouTube
-          videoId={"oknBw6RRF_E"}
+          videoId={"ZKfxjK8Shu8"}
           opts={opts}
           className="mx-auto overflow-hidden rounded-lg"
         />
