@@ -12,7 +12,7 @@ const ProjectsVideo = () => {
     <>
       <div className="grid w-full py-5 md:grid-cols-2 gap-y-5">
         <YouTube
-          videoId={"PevzjgVjWL4"}
+          videoId={"xQYhu8bdbBg"}
           opts={opts}
           className="mx-auto overflow-hidden rounded-lg"
         />
