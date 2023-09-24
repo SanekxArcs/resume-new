@@ -31,7 +31,7 @@ const MainHead = () => {
               title="Link to my site"
             >
               <Link className="w-4 h-4 mr-2" />
-              Натисни та перейди на мій сайт Резюме/Портфоліо
+              Натисни та перейди на мій сайт Резюме / Портфоліо
             </a>
           </Button>
         </motion.p>
