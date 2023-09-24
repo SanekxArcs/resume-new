@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { headInformation } from './../db/db.json'
-import myPhoto from "./../assets/Untitled-2.webp";
+import myPhoto from "./../assets/profile-photo.webp";
 import pdf from './../assets/Margarita Tkachyk.pdf'
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import { QrCode } from "lucide-react";
-import qrCode from './../../assets/qr-code (3).png'
+import qrCode from './../../assets/qr-code.png'
 
 
 const Vcard = () => {

@@ -1,13 +1,13 @@
-import pic1 from "./../../assets/DSC00264.webp";
-import pic2 from "./../../assets/DSC00496.webp";
-import pic3 from "./../../assets/DSC07871.webp";
-import pic4 from "./../../assets/DSC08748.webp";
-import pic5 from "./../../assets/DSC09671.webp";
-import pic6 from "./../../assets/photo_2023-09-24_00-18-45.webp";
-import pic7 from "./../../assets/photo_2023-09-24_00-18-36.webp";
-import pic8 from "./../../assets/photo_2023-09-16_21-16-44.webp";
-import pic9 from "./../../assets/photo_2023-09-24_00-18-56.webp";
-import pic10 from "./../../assets/IMG_3797.webp";
+import pic1 from "./../../assets/photo-1.webp";
+import pic5 from "./../../assets/photo-5.webp";
+import pic2 from "./../../assets/photo-2.webp";
+import pic3 from "./../../assets/photo-3.webp";
+import pic4 from "./../../assets/photo-4.webp";
+import pic6 from "./../../assets/photo-6.webp";
+import pic7 from "./../../assets/photo-7.webp";
+import pic9 from "./../../assets/photo-9.webp";
+import pic8 from "./../../assets/photo-8.webp";
+import pic10 from "./../../assets/photo-10.webp";
 
 const ProjectsPhoto = () => {
 

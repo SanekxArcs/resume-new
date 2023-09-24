@@ -1,9 +1,7 @@
-// import Rodo from "./main/Rodo";
 
 const Footer = () => {
   return (
     <>
-      {/* <Rodo /> */}
       <footer
         className={`print:hidden container mx-auto flex flex-col items-center justify-center px-4 py-2 mt-10 text-center rounded-tr-md rounded-tl-md backdrop-blur-md top-2 bg-primary/30 cursor-default select-none`}
       >

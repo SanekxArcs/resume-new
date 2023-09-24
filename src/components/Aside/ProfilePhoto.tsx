@@ -1,4 +1,4 @@
-import myPhoto from "../../assets/Untitled-2.webp"
+import myPhoto from "../../assets/profile-photo.webp";
 
 const ProfilePhoto = () => {
   return (

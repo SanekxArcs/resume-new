@@ -1,4 +1,5 @@
 import YouTube, { YouTubeProps } from "react-youtube";
+import { videos } from "./../../db/db.json";
 
 const ProjectsVideo = () => {
       const opts: YouTubeProps["opts"] = {
@@ -8,14 +9,6 @@ const ProjectsVideo = () => {
           autoplay: 0,
         },
       };
-      
-      const videos = [
-        "PevzjgVjWL4",
-        "xQYhu8bdbBg",
-        "dx_TbV2bSTI",
-        "aiHWty5tfgI",
-        "ZKfxjK8Shu8",
-      ];
   return (
     <>
       <div className="grid w-full py-5 md:grid-cols-2 gap-y-5">
