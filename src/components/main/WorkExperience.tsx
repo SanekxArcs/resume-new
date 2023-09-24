@@ -3,6 +3,25 @@ import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 import { workExperience } from './../../db/db.json'
 
+const WorkExperience = () => {
+  return (
+    <section id="work" className="cursor-default select-none scroll-m-16 px-1">
+      <h3 className="flex items-center justify-start w-full py-4">
+        <Building2 className="mr-2" />
+        Досвід роботи
+      </h3>
+      <Separator className="mb-4" />
+
+      <ol className="relative border-l border-gray-200 ">
+        {WorkExperienceElements}
+      </ol>
+    </section>
+  );
+};
+
+export default WorkExperience;
+
+
 const WorkExperienceElements = workExperience.map((elem, index) => {
  return (
    <li key={index} className={`mb-10 print:mb-5 ml-6`}>
@@ -30,7 +49,7 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
        } pl-3 mb-1 text-base font-normal  list-disc`}
      >
        {elem.description.map((item, i) => (
-         <li className={`${elem.print ? "print:hidden" : ""}`} key={i}>
+         <li key={i} className={`${elem.print ? "print:hidden" : ""}`} >
            {item}
          </li>
        ))}
@@ -48,21 +67,3 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
    </li>
  );
 });
-
-const WorkExperience = () => {
-  return (
-    <section id="work" className="cursor-default select-none scroll-m-16 px-1">
-      <h3 className="flex items-center justify-start w-full py-4">
-        <Building2 className="mr-2" />
-        Досвід роботи
-      </h3>
-      <Separator className="mb-4" />
-
-      <ol className="relative border-l border-gray-200 ">
-        {WorkExperienceElements}
-      </ol>
-    </section>
-  );
-};
-
-export default WorkExperience;
