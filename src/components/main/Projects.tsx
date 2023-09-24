@@ -41,8 +41,8 @@ const Projects = () => {
       >
         <a href="https://o-d.netlify.app/" title="My web site o-d.netlify.app">
           <Link className="w-4 h-4 mr-2" />
-          Link to see all on:&nbsp;
-          <span className="select-all">m-t.netlify.app</span>
+          Посилання на повне резюме:&nbsp;
+          <span className="select-all">marsela.netlify.app</span>
         </a>
       </Button>
     </section>
