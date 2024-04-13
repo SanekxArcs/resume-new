@@ -4,7 +4,7 @@ import { practikalSkills } from "./../../db/db.json";
 
 
 const PractikalSkills = () => {
-  const softSkillsElements = practikalSkills.map((skill, index) => (
+  const softSkillsElements = practikalSkills.map((any: skill, any: index) => (
     <li key={index}>{skill}</li>
   ));
 
