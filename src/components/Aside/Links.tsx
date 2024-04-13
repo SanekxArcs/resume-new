@@ -16,8 +16,8 @@ const Links = () => {
       icon: <Instagram className="mr-2" />,
     },
     {
-      link: "https://t.me/maRrrgaritaaaa",
-      name: "t.me/maRrrgaritaaaa",
+      link: "https://marrgori",
+      name: "t.me/marrgori",
       title: "My telegram contact",
       icon: <Send className="mr-2" />,
     },
