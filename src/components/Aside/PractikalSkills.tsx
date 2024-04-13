@@ -1,19 +1,17 @@
 import { MessageCircle } from "lucide-react";
 import { practikalSkills } from "./../../db/db.json";
 
-
-
 const PractikalSkills = () => {
-  const softSkillsElements = practikalSkills.map((any: skill, any: index) => (
+  const softSkillsElements = practikalSkills.map((skill: string, index: number) => (
     <li key={index}>{skill}</li>
   ));
 
   return (
     <>
-      <div className="cursor-default select-none ">
+      <div className="cursor-default select-none">
         <h3
           className="flex items-center justify-start text-2xl font-semibold"
-          title="This is a relevant soft skills, i real life a have many more good skills"
+          title="These are relevant practical skills; I have many more in real life."
         >
           <MessageCircle className="mr-2" /> Практичні навички
         </h3>
