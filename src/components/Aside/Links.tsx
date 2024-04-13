@@ -10,16 +10,16 @@ const Links = () => {
 
   const linkData = [
     {
-      link: "https://www.instagram.com/_margomti_tkachuk_/",
-      name: "@_margomti_tkachuk_",
-      title: "My Instagram Profile, you can also search in Google",
-      icon: <Instagram className="mr-2" />,
-    },
-    {
-      link: "https://marrgori",
-      name: "t.me/marrgori",
-      title: "My telegram contact",
-      icon: <Send className="mr-2" />,
+     link: "https://www.instagram.com/_margomti_tkachuk_/",
+  name: "@_margomti_tkachuk_",
+  title: "Мій профіль в Instagram. Також можете знайти у Google.",
+  icon: <Instagram className="mr-2" />,
+},
+{
+  link: "https://t.me/marrgori",
+  name: "t.me/marrgori",
+  title: "Мій контакт у Telegram",
+  icon: <Send className="mr-2" />,
     },
     {
       link: "https://www.behance.net/margaritkachuk",
