@@ -13,6 +13,26 @@
     "english": "A1-A2",
     "ukrainian": "Рідна"
   },
+  "links": [
+    {
+      "link": "https://www.instagram.com/_margomti_tkachuk_/",
+      "name": "@_margomti_tkachuk_",
+      "title": "Мій профіль в Instagram. Також можете знайти у Google.",
+      "icon": "Instagram"
+    },
+    {
+      "link": "https://t.me/marrgori",
+      "name": "t.me/marrgori",
+      "title": "Мій контакт у Telegram",
+      "icon": "Send"
+    },
+    {
+      "link": "https://www.behance.net/margaritkachuk",
+      "name": "behance.net/margaritkachuk",
+      "title": "My Behance contact",
+      "icon": "Aperture"
+    }
+  ],
   "techs": [
     "Final Cut Pro",
     "Adobe Premiere Pro",

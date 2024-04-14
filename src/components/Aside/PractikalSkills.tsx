@@ -1,10 +1,10 @@
 import { MessageCircle } from "lucide-react";
-import { practikalSkills } from "./../../db/db.json";
+import { practicalSkills } from "./../../db/db.json";
 
 const PractikalSkills = () => {
-  const softSkillsElements = practikalSkills.map((skill: string, index: number) => (
-    <li key={index}>{skill}</li>
-  ));
+  const softSkillsElements = practicalSkills.map(
+    (skill: string, index: number) => <li key={index}>{skill}</li>,
+  );
 
   return (
     <>

@@ -4,46 +4,42 @@ import {
   Send,
   Instagram,
 } from "lucide-react";
+
 import { Button } from "../ui/button";
+import { links } from "./../../db/db.json";
 
 const Links = () => {
 
-  const linkData = [
-    {
-      link: "https://www.instagram.com/_margomti_tkachuk_/",
-  name: "@_margomti_tkachuk_",
-      title: "Мій профіль в Instagram. Також можете знайти у Google.",
-      icon: <Instagram className="mr-2" />,
-    },
-    {
-      link: "https://t.me/marrgori",
-  name: "t.me/marrgori",
-      title: "Мій контакт у Telegram",
-      icon: <Send className="mr-2" />,
-    },
-    {
-      link: "https://www.behance.net/margaritkachuk",
-      name: "behance.net/margaritkachuk",
-      title: "My Behance contact",
-      icon: <Aperture className="mr-2" />,
-    },
-  ];
-
-  const linkElements = linkData.map((element, index) => {
-    return (
-      <Button key={index} asChild variant="ghost" size="sm">
-        <a
-          href={element.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          title={element.title}
-        >
-          {element.icon}
-          {element.name}
-        </a>
-      </Button>
-    );
-  })
+   const linkElements = links.map((element, index) => {
+     let iconComponent;
+     switch (element.icon) {
+       case "Instagram":
+         iconComponent = <Instagram className="mr-2" />;
+         break;
+       case "Send":
+         iconComponent = <Send className="mr-2" />;
+         break;
+       case "Aperture":
+         iconComponent = <Aperture className="mr-2" />;
+         break;
+       default:
+         iconComponent = null;
+         break;
+     }
+     return (
+       <Button key={index} asChild variant="ghost" size="sm">
+         <a
+           href={element.link}
+           target="_blank"
+           rel="noopener noreferrer"
+           title={element.title}
+         >
+           {iconComponent}
+           {element.name}
+         </a>
+       </Button>
+     );
+   });
   
   return (
     <>
