@@ -96,8 +96,11 @@
   "education": [
     {
       "institution": "Київський національний університет театру, кіно і телебачення імені Івана Карпенка-Карого",
-      "specialization": "Кінотелеоператорства спеціальність кінооператор",
-      "additionalCourses": "Додаткове навчання - СММ-дизайн у Figma , Комплексний SMM , Практичний курс з reels від kukurudza.com"
+      "specialization": "Кінотелеоператорства спеціальність кінооператор"
+    },
+    {
+      "institution": "kukurudza.com",
+      "specialization": "Додаткове навчання - СММ-дизайн у Figma , Комплексний SMM , Практичний курс з reels"
     }
   ],
   "workExperience": [
@@ -113,8 +116,8 @@
       "Забезпечення високої якості зображень та дотримання термінів, контроль відзнятого матеріалу",
       "Підготовка студії або локації до зйомки , пошук та підбір локацій , виставлення світла, налаштування обладнання"
     ],
-    "instagram": "https://www.instagram.com/loves.jewelerrs/",
-    "instagramName": "@loves.jewelerrs",
+    "website": "https://www.instagram.com/loves.jewelerrs/",
+    "websiteName": "@loves.jewelerrs",
     "print": false
 },
   {
