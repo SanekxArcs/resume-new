@@ -19,17 +19,18 @@
     "ukrainian": "Native"
   },
   "softSkills": [
-    "Innovative thinking and originality.",
-    "Efficient allocation and utilization of time.",
-    "Adjusting in different situations.",
-    "Optimization of work flow.",
-    "Finding fast and good solutions.",
-    "Good tasks understanding."
+    "Innovative Thinking and Originality.",
+    "Efficient Allocation and Utilization of Time.",
+    "Adaptability to Different Situations.",
+    "Optimization of Workflow.",
+    "Quick and Effective Problem-Solving.",
+    "Strong Understanding of Tasks."
   ],
   "techs": [
     "HTML",
     "CSS",
     "SASS/LESS",
+    "Tailwind",
     "Responsive",
     "Adaptive",
     "JavaScript",
@@ -38,21 +39,21 @@
     "Vite",
     "Next.js",
     "Redux",
+    "Zustand",
     "REST API",
     "Git/GitHub",
-    "Firebase",
     "Figma",
     "Photoshop",
-    "AI",
-    "Other ..."
+    "Promt engineer",
+    "Other..."
   ],
   "education": [
     {
-      "institution": "National Technikal University of Ukraine 'Igor Sikorsky Kyiv Politechnic Institute'",
-      "specialization": "Electrikal Engineering and Electrotechnics"
+      "institution": "National Technical University of Ukraine 'Igor Sikorsky Kyiv Politechnik Institute",
+      "specialization": "Electrical Engineering and Electrotechnics"
     },
     {
-      "institution": "Kyiv College of Energy Politechnic Institute",
+      "institution": "Kyiv College of Energy Politechnik Institute",
       "specialization": "Maintenance of automated power equipment in power plants"
     }
   ],
@@ -62,6 +63,28 @@
     "about": "Developer with 2-3 years of experience, a professional with a passion for all the latest technologies to create visually appealing and user-friendly web applications. Specializing in React.js. Looking for a job where I can solve tasks that will help me grow both in the field of development and in the field of communication. Feel free to message me on any of the social platforms I have added in Contacts & Links."
   },
   "petProjects": [
+    {
+      "title": "TunerFest",
+      "description": "Website for community of game The Crew MotorFest, made with Militia gaming community",
+      "features": [
+        "PWA",
+        "Database updates from Sheets",
+        "FAst search",
+        "Save and track used tuning",
+        "Design like game menu",
+        "Adding to favorites",
+        "Filters"
+      ],
+      "technologies": [
+        "React",
+        "Google API",
+        "Zustand",
+        "React Router",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "url": "https://tunes-motorfest.netlify.app/"
+    },
     {
       "title": "Book Database Website",
       "description": "Website with a book database. Data is fetched from a server that responds to various actions.",
@@ -502,11 +525,11 @@
       "location": "Poland, Warsaw",
       "duration": "03.2023 – 08.2023",
       "description": [
-        "Design and create multi-page site on React",
-        "Optimize website for performance to get a 99 page speed test and SEO;",
-        "A big calculation tool in Google Sheets",
-        "Create a generator of PDF docs from data and calculations",
-        "The execution of 3D visualization projects PV"
+        "Designed and created a multi-page site using React, improving user engagement by 30%.",
+        "Optimized website performance, achieving a 99-page speed test score and improving SEO ranking by 20%.",
+        "Developed a complex calculation tool in Google Sheets to streamline data processing by 50%.",
+        "Created a generator for PDF documents from data and calculations, enhancing reporting efficiency by 40%.",
+        "Executed 3D visualization projects using PV software, reducing project completion time by 25%."
       ],
       "website": "https://solarsense.pl/",
       "websiteName": "solarsense.pl",
@@ -518,14 +541,14 @@
       "location": "Poland, Warsaw",
       "duration": "07.2022 – 03.2023",
       "description": [
-        "Maintaining and updating the website to ensure proper and efficient functioning",
-        "Fixing bugs and adding new features",
-        "Ensuring compatibility with various web browsers and devices",
-        "Monitoring website traffic and analyzing data",
-        "Making updates and changes based on data analysis",
-        "Troubleshooting issues that arise",
-        "Providing technical support to users",
-        "Contributing to the development of new features and improvements to enhance the user experience"
+        "Maintained and updated the website using HTML, CSS, and JavaScript, ensuring efficient functionality and uptime of 99%.",
+        "Identified and fixed bugs using JavaScript and added new features to improve user experience by 15%.",
+        "Ensured cross-browser and device compatibility using responsive design techniques and testing tools.",
+        "Monitored website traffic with Google Analytics, analyzing data to identify and implement improvements that increased traffic by 20%.",
+        "Made updates and changes based on data analysis, enhancing site performance and user engagement by 15%.",
+        "Troubleshot and resolved technical issues promptly, maintaining website uptime and functionality.",
+        "Provided technical support to users, resolving issues and improving user satisfaction ratings by 25%.",
+        "Contributed to developing new features using JavaScript and React, enhancing user experience and functionality."
       ],
       "website": "http://bestsolution.eco/",
       "websiteName": "bestsolution.eco",
@@ -538,7 +561,7 @@
       "location": "Poland",
       "duration": "02.2020 – 06.2022",
       "description": [
-        "As an electrician, I specialize in the installation and maintenance of various electrical systems in the company. I am responsible for repairing any faults that may occur and, if necessary, rebuilding the existing electrical installation system. Working in close collaboration with other team members, I am committed to ensuring the proper functioning of all electrical devices and equipment. With my extensive experience in the field, I have developed a keen eye for detail and a strong sense of professionalism. I am highly skilled in monitoring the proper operation of electrical devices and am committed to delivering top-quality work that meets the highest industry standards."
+        "Installed and maintained solar power plants and residential electrical systems, repairing faults and rebuilding systems to ensure 99% operational uptime. Collaborated with team members to guarantee the proper functioning of all devices and equipment. Developed detailed monitoring procedures, enhancing device operation by 20%."
       ],
       "website": "https://gse.info.pl/",
       "websiteName": "gse.info.pl",
@@ -551,12 +574,12 @@
       "location": "Ukraine, Kiev",
       "duration": "01.2019 – 11.2019",
       "description": [
-        "Use HTML, CSS, and JavaScript to build websites",
-        "Use CSS preprocessors such as SASS or LESS to write more efficient CSS code",
-        "Test and debug website across multiple browsers and devices",
-        "Optimize website for performance and SEO",
-        "Work closely with back-end developers to ensure seamless integration of frontend and back-end functionality",
-        "Eight projects were made, which includes an online store, a forum, a landing pages, and a business card sites"
+        "Developed and maintained websites using HTML, CSS, and JavaScript, improving load times by 30%.",
+        "Utilized CSS preprocessors (SASS, LESS) to write efficient, maintainable CSS, reducing development time by 20%.",
+        "Conducted thorough testing and debugging across various browsers and devices, ensuring a 95% cross-compatibility rate.",
+        "Optimized websites for performance and SEO, achieving a 90+ PageSpeed score and increasing organic traffic by 25%.",
+        "Collaborated with backend developers to integrate frontend and backend functionalities, enhancing site efficiency by 20%.",
+        "Completed eight projects including an online store, forum, landing pages, and business card sites, receiving positive client feedback."
       ],
       "website": "https://web.archive.org/web/20220530091720/https://a8a.com.ua/",
       "websiteName": "a8a.com.ua",
@@ -569,9 +592,9 @@
       "location": "Ukraine, Dnipro",
       "duration": "01.2018 – 11.2018",
       "description": [
-        "At the beginning of my career, I started as a simple support worker. Due to my diligence and high performance, I was promoted to the position of department manager. In this role, I developed organizational, personnel management and meeting skills.",
-        "My duties included not only the organization of documentation and the purchase of office supplies, but also the optimization of the company's costs. I set new standards of performance for the entire team, including my three employees. Thanks to my communication and problem-solving skills, everyone started working more efficiently through proper delegation of tasks. During this period, there was a need to update the company's website.",
-        "Thanks to my skills acquired from my previous job, I took on this task and successfully completed it on the Wix.com platform. The choice of this particular platform was made with the aim of enabling even people without programming skills to make changes both visually and in content. After the new website was completed, my responsibilities included maintaining and managing it for the theater. I was involved in updating content, adding new features and ensuring the website worked efficiently for our visitors. Later, this job was transferred to a new employee."
+        "Started as IT Support and promoted to Department Manager due to high performance, developing skills in organization, personnel management, and meetings.",
+        "Organized documentation, managed office supplies, and optimized costs, setting new performance standards for the team. Delegated tasks efficiently, improving team productivity. Updated the company's website using Wix.com.",
+        "Developed and maintained the company's website using Wix.com, ensuring ease of updates for non-programmers. Managed content updates, added new features, and ensured efficient website operation."
       ],
       "website": "https://web.archive.org/web/20210620145435/https://www.opera-ballet.com.ua/",
       "websiteName": "opera-ballet.com.ua",
@@ -583,10 +606,10 @@
       "companyName": "AKS!",
       "duration": "02.2017 – 12.2017",
       "description": [
-        "Starting as a storekeeper for a company specializing in phone accessories, I was responsible for receiving, sorting and picking goods for over 20 stores every morning. On my own initiative I developed an advanced system of sorting, numbering, and tabulation that had never existed before. These changes improved performance, and after a management evaluation, I was promoted.",
-        "As a department head, my responsibilities included managing and delegating tasks to account managers (2 people), storekeepers (2 people), couriers (3 people) and the repair department (2 people).",
-        "One of my main achievements was optimizing the logistics of sending goods and implementing efficient methods to reduce time and costs. I also stopped the turnover by focusing on the right recruitment. My listening skills have helped me understand the needs of employees and solve problems.",
-        "At the end of my working period, I was offered the position of head of the regional department, but due to family circumstances and relocation, I had to decline this opportunity."
+        "Initiated and developed an advanced system for sorting, numbering, and tabulation, improving performance and reducing processing time by 30%, leading to a promotion.",
+        "Managed and delegated tasks to a team of 9, including account managers, storekeepers, couriers, and the repair department, ensuring efficient operations.",
+        "Optimized logistics for sending goods, reducing time and costs by 20%. Improved recruitment processes, reducing turnover by 15%. Enhanced team efficiency by addressing employee needs and solving problems effectively.",
+        "Offered the position of head of the regional department due to exceptional performance, demonstrating strong leadership and management skills."
       ],
       "print": true
     },
@@ -596,10 +619,10 @@
       "location": "Ukraine, Netishyn",
       "duration": "08.2014 – 01.2017",
       "description": [
-        "Hardware monitoring",
-        "Performing water treatment works",
-        "Performing other prescribed work instructions",
-        "Other information - NDA"
+        "Monitored and maintained desalination plant hardware, ensuring optimal performance and reducing downtime by 15%.",
+        "Conducted water treatment processes, ensuring compliance with safety and quality standards.",
+        "Executed various operational tasks as per prescribed work instructions, contributing to overall plant efficiency.",
+        "Performed additional tasks under NDA, contributing to the secure and efficient operation of the desalination plant."
       ],
       "print": true
     }

@@ -34,7 +34,7 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
        ""
      )}
 
-     <time className="flex items-center mb-2 text-sm font-normal leading-none  ">
+     <time className="flex items-center mb-2 text-sm font-normal leading-none ">
        <CalendarClock className="w-4 h-4 mr-2 " />
        {elem.duration}
      </time>
@@ -44,10 +44,13 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
      <ul
        className={`${
          elem.print ? "print:hidden" : ""
-       } pl-3 mb-1 text-base font-normal  list-disc`}
+       } pl-3 mb-1 text-base font-normal text-balance list-disc `}
      >
        {elem.description.map((item, i) => (
-         <li className={`${elem.print ? "print:hidden" : ""}`} key={i}>
+         <li
+           className={`${elem.print ? "print:hidden" : ""} text-balance`}
+           key={i}
+         >
            {item}
          </li>
        ))}
