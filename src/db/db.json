@@ -429,14 +429,14 @@
         "WordPress",
         "PhotoShop"
       ],
-      "url": "https://l-i.netlify.app/"
+      "url": "https://plenum.com.ua/uk/#pll_switcher"
     },
     {
       "title": "Webpage - Resume/CV",
       "description": "Site Resume - make for peoples their CV online and pdf ready",
       "features": ["Design", "Fully Responsive", "Semantic", "Accordion"],
       "technologies": ["HTML", "Tailwind CSS", "React", "Figma", "Photoshop"],
-      "url": "https://l-i.netlify.app/"
+      "url": "https://marsela.netlify.app/"
     }
   ],
   "courses": [
