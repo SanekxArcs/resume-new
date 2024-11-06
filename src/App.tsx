@@ -8,9 +8,9 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className=" dark:bg-primary/10 print:bg-white">
+      <div className=" dark:bg-primary/10 print:bg-white print:text-black print:w-full">
         <Header />
-        <div className="container grid grid-cols-4 mx-auto lg:grid-cols-12">
+        <div className="container grid grid-cols-4 mx-auto lg:grid-cols-12 print:flex ">
           <Aside />
           <Main />
         </div>

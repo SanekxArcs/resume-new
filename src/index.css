@@ -112,3 +112,25 @@
   }
 
 }
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  body {
+    width: 210mm; /* Ширина A4 */
+    height: 297mm; /* Висота A4 */
+    margin: 0;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Приховати елементи, які не потрібні при друку */
+  .no-print {
+    display: none !important;
+  }
+}
