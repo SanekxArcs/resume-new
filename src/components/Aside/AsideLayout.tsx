@@ -11,6 +11,7 @@ import Interests from "./Interests";
 import ProfilePhoto from "./ProfilePhoto";
 import Vcard from "./Vcard";
 import { Separator } from "../ui/separator";
+import MainHead from "../main/MainHead";
 
 const Aside = () => {
   return (
@@ -19,10 +20,14 @@ const Aside = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="col-span-4 px-4 lg:px-0 lg:pr-10"
+        className="col-span-4 px-4 lg:px-0 lg:pr-10 order-1 lg:order-none"
       >
         <ProfilePhoto />
-        <div className="sticky flex flex-col gap-5 h-fit top-20">
+        <div className="lg:hidden mb-10">
+            <MainHead />
+            </div>
+        <div className="sticky flex flex-col gap-5 lg:h-[calc(100vh-5rem)] lg:overflow-y-auto top-20 hover:overflow-y-auto mb-10 lg:mb-0">
+          
           <Contacts />
           <Separator />
           <Links />
@@ -33,10 +38,8 @@ const Aside = () => {
           <Separator />
           <SoftSkills />
           <Separator />
-          
-          
           <Interests />
-          <Separator className="print:hidden"/>
+          <Separator className="print:hidden hidden lg:block" />
           <Vcard />
         </div>
       </motion.aside>

@@ -1,18 +1,17 @@
 import { Map, Banknote, AtSign, Phone, MapPin, Contact2, } from "lucide-react";
 import { Button } from "../ui/button";
 import contactsData from './../../db/db.json'
-
+import { SectionWrapper } from "../ui/section-wrapper";
 
 const Contacts = () => {
 
   return (
     <>
       <div id="contacts">
-        <h3 className="flex items-center justify-start text-2xl font-semibold rounded-md cursor-default select-none scroll-p-16">
-          <Contact2 className="mr-2" />
-          Contacts
-        </h3>
-        <div className="flex flex-col items-start justify-start">
+        <SectionWrapper icon={<Contact2 className="mr-2" />} title="Contacts" separator={false}>
+          <div
+          className={`flex flex-col items-start justify-start`}
+        >
           <Button asChild variant="ghost" size="sm">
             <a
               href={`mailto:${contactsData.contacts.email}?subject=Hello world!&body=Hello, Oleksandr!`}
@@ -58,6 +57,9 @@ const Contacts = () => {
             </p>
           </Button>
         </div>
+        </SectionWrapper>
+
+        
       </div>
     </>
   );

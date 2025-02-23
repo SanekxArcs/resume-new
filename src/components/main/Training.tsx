@@ -1,7 +1,7 @@
-import { FileBadge2 } from "lucide-react";
-import { Separator } from "../ui/separator";
+import { FileBadge2, } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { courses } from "./../../db/db.json";
+import { SectionWrapper } from "../ui/section-wrapper";
 
 const Training = () => {
   const coursesElements = courses.map((course, index) => (
@@ -30,12 +30,17 @@ const Training = () => {
       id="certification"
       className="cursor-default select-none scroll-m-16"
     >
-      <h3 className="flex items-center">
-        <FileBadge2 className="mr-2 " />
-        Certificates
-      </h3>
-      <Separator className="mb-4" />
-      <div className="grid gap-5">{coursesElements}</div>
+      <SectionWrapper
+        icon={<FileBadge2 className="mr-2" />}
+        title="Certificates"
+      >
+        <div
+        className={`grid gap-5 `}
+      >
+        {coursesElements}
+      </div>
+      </SectionWrapper>
+      
     </section>
   );
 };

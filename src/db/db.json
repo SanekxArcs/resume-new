@@ -6,6 +6,38 @@
     "relocationReady": true,
     "typeOfContract": "B2B or other"
   },
+  "links": [
+    {
+      "link": "https://github.com/SanekxArcs",
+      "name": "github.com/SanekxArcs",
+      "title": "My web portfolio and real code samples",
+      "iconName": "Github"
+    },
+    {
+      "link": "https://www.linkedin.com/in/od-/",
+      "name": "linkedin.com/in/od-/",
+      "title": "My LinkedIn Profile, you can also search in Google 'Oleksandr Dzisiak'",
+      "iconName": "Linkedin"
+    },
+    {
+      "link": "https://t.me/Sanekx_Arcs",
+      "name": "t.me/Sanekx_Arcs",
+      "title": "My telegram contact, you can also search use my work number: +48735145620",
+      "iconName": "Send"
+    },
+    {
+      "link": "https://wa.me/qr/DISE7CCEVP5JJ1",
+      "name": "wa.me/qr/DISE7CCEVP5JJ1",
+      "title": "My WhatsUp contact, you can also search use my work number: +48735145620",
+      "iconName": "MessagesSquare"
+    },
+    {
+      "link": "https://m.me/sanekx.arcs",
+      "name": "m.me/sanekx.arcs",
+      "title": "My facebook Messenger contact, you can also search use my work number: +48735145620",
+      "iconName": "Facebook"
+    }
+  ],
   "interests": [
     "Machine learning",
     "3D Modeling",
@@ -27,24 +59,33 @@
     "Strong Understanding of Tasks."
   ],
   "techs": [
+
     "HTML",
+    "JavaScript",
+    "TypeScript",
+    
     "CSS",
     "SASS/LESS",
     "Tailwind",
-    "Responsive",
-    "Adaptive",
-    "JavaScript",
-    "TypeScript",
+    
     "React.JS",
-    "Vite",
     "Next.js",
+    "Vite",
+
     "Redux",
     "Zustand",
-    "REST API",
+
     "Git/GitHub",
+    "REST API",
+    "GROQ",
+
     "Figma",
     "Photoshop",
+
+    "Responsive",
+    "Adaptive",
     "Promt engineer",
+
     "Other..."
   ],
   "education": [
@@ -63,6 +104,28 @@
     "about": "Developer with 2-3 years of experience, a professional with a passion for all the latest technologies to create visually appealing and user-friendly web applications. Specializing in React.js. Looking for a job where I can solve tasks that will help me grow both in the field of development and in the field of communication. Feel free to message me on any of the social platforms I have added in Contacts & Links."
   },
   "petProjects": [
+    {
+      "title": "ERM System for VDG Solar",
+      "description": "Webapp made for VDG Solar in the field of electrical engineering. The project is a web application that allows you to manage and monitor the electrical equipment of the company. The application is built using Next.js 15 and Sanity. Start as pet project contine as comertial project, in DEVELOPMENT",
+      "features": [
+        "PWA",
+        "Database updates Google Sheets or Batch import",
+        "Store management",
+        "Firm costs calculation",
+        "Invoice generation",
+        "Equipment management",
+        "Equipment search"
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zog",
+        "Sanity",
+        "Google API"
+      ],
+      "url": "https://github.com/SanekxArcs/VDGapp/tree/main"
+    },
     {
       "title": "TunerFest",
       "description": "Website for community of game The Crew MotorFest, made with Militia gaming community",
@@ -310,6 +373,25 @@
     }
   ],
   "commercialProjects": [
+    {
+      "title": "Feigin Electric",
+      "description": "Corporate Websites - The site was designed to showcase the company in the renewable energy space on the Internet. Branding was created, as well as the site from scratch to the state it is today.",
+      "features": [
+        "Blog",
+        "SPA",
+        "Fully Responsive",
+        "GTmetrix: A",
+        "Seo Optimization"
+      ],
+      "technologies": [
+        "Next.js 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "Sanity"
+      ],
+      "url": "https://feigin-pl.vercel.app/"
+    },
     {
       "title": "Solar Sense",
       "description": "Corporate Websites - The site was designed to showcase the company in the renewable energy space on the Internet. Branding was created, as well as the site from scratch to the state it is today.",

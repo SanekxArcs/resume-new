@@ -1,12 +1,12 @@
 import {motion} from "framer-motion";
 import { Button } from "../ui/button";
 import { Link } from "lucide-react";
-import { headInformation } from "./../../db/db.json";
+import { headInformation } from "../../db/db.json";
 
 const MainHead = () => {
   return (
     <>
-      <div id="top" className="pt-10 cursor-default select-none lg:pt-8">
+      <div id="top" className="pt-10 cursor-default select-none lg:pt-8 order-0 lg:order-none">
         <p className="lg:hidden">About me:</p>
         <motion.h1 className="text-5xl font-medium lg:text-6xl">
           {headInformation.name}

@@ -12,6 +12,7 @@ import { FileCode2, Link } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { commercialProjects } from "./../../db/db.json";
 import { petProjects } from "./../../db/db.json";
+import { SectionWrapper } from "../ui/section-wrapper";
 
 interface WebsiteInfo {
   title: string;
@@ -23,13 +24,13 @@ interface WebsiteInfo {
 
 
 const Projects = () => {
-
+  
 const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
   return projectsArray.map((element: WebsiteInfo, index: number) => {
     return (
       <div
         key={index}
-        className="flex col-span-1 transition-all duration-500 lg:last:col-span-2 last:block hover:scale-[1.02] hover:drop-shadow-md select-none"
+        className="flex col-span-1 transition-all duration-500 odd:lg:last:col-span-2  last:block hover:scale-[1.02] hover:drop-shadow-md select-none"
       >
         <Card className="flex flex-col justify-between">
           <CardHeader>
@@ -68,51 +69,46 @@ const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
   });
 };
 
-const commercialElement = projectsElementsBuild(commercialProjects);
-const petElement = projectsElementsBuild(petProjects);
+  const commercialElement = projectsElementsBuild(commercialProjects);
+  const petElement = projectsElementsBuild(petProjects);
 
   return (
-    <section id="projects" className="sm:px-2 break-before-auto scroll-m-16">
-      <Tabs defaultValue="Commercial" className="w-full">
-        <h3 className="flex items-center justify-start select-none">
-          <FileCode2 className="mr-2" />
-          Projects
-        </h3>
-        <TabsList className="flex flex-col items-center justify-start w-full h-full md:flex-row print:hidden">
-          <TabsTrigger className="w-full" value="Commercial">
-            Commercial projects
-          </TabsTrigger>
-          <TabsTrigger className="w-full" value="pet">
-            Pet-projects
-          </TabsTrigger>
-          <TabsTrigger className="w-full" value="all">
-            All
-          </TabsTrigger>
-          <TabsTrigger className="w-full" value="hide">
-            Hide all
-          </TabsTrigger>
-        </TabsList>
-        <TabsContent value="all">
-          <div
-            id="#list-view"
-            className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch"
-          >
-            {commercialElement}
-            {petElement}
-          </div>
-        </TabsContent>
-        <TabsContent value="Commercial">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            {commercialElement}
-          </div>
-        </TabsContent>
-        <TabsContent value="pet">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-            {petElement}
-          </div>
-        </TabsContent>
-        <TabsContent value="hide"></TabsContent>
+    <>
+    <section id="projects" className="sm:px-1 break-before-auto scroll-m-16">
+
+      <SectionWrapper icon={<FileCode2 className="mr-2" />} title="Projects">
+
+        <Tabs defaultValue="Commercial" className="w-full">
+          <TabsList className="flex flex-col items-center justify-start w-full h-full md:flex-row print:hidden">
+            <TabsTrigger className="w-full" value="Commercial">
+              Commercial projects
+            </TabsTrigger>
+            <TabsTrigger className="w-full" value="pet">
+              Pet-projects
+            </TabsTrigger>
+            <TabsTrigger className="w-full" value="all">
+              All
+            </TabsTrigger>
+          </TabsList>
+          <TabsContent value="all">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
+              {commercialElement}
+              {petElement}
+            </div>
+          </TabsContent>
+          <TabsContent value="Commercial">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
+              {commercialElement}
+            </div>
+          </TabsContent>
+          <TabsContent value="pet">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
+              {petElement}
+            </div>
+          </TabsContent>
       </Tabs>
+
+      </SectionWrapper>
 
       <Button
         className="hidden w-full mt-4 print:flex"
@@ -127,6 +123,7 @@ const petElement = projectsElementsBuild(petProjects);
         </a>
       </Button>
     </section>
+    </>
   );
 };
 

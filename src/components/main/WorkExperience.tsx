@@ -1,7 +1,7 @@
 import { Briefcase, Building, Building2, CalendarClock, ExternalLink, MapPin } from "lucide-react";
 import { Button } from "../ui/button";
-import { Separator } from "../ui/separator";
 import { workExperience } from './../../db/db.json'
+import { SectionWrapper } from "../ui/section-wrapper";
 
 const WorkExperienceElements = workExperience.map((elem, index) => {
  return (
@@ -72,15 +72,14 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
 const WorkExperience = () => {
   return (
     <section id="work" className="cursor-default select-none scroll-m-16">
-      <h3 className="flex items-center justify-start w-full py-4">
-        <Building2 className="mr-2" />
-        Work experience
-      </h3>
-      <Separator className="mb-4" />
-
-      <ol className="relative border-l border-gray-200 ">
-        {WorkExperienceElements}
-      </ol>
+      <SectionWrapper
+        icon={<Building2 className="mr-2" />}
+        title="Work experience"
+      >
+        <ol className="relative border-l border-gray-200 ">
+          {WorkExperienceElements}
+        </ol>
+      </SectionWrapper>
     </section>
   );
 };

@@ -1,8 +1,8 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Aside from "@/components/Aside/Aside";
-import Main from "@/components/main/Main";
+import Aside from "@/components/Aside/AsideLayout";
+import Main from "@/components/main/MainLayout";
 
 function App() {
 
