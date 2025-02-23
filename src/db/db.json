@@ -106,7 +106,7 @@
   "petProjects": [
     {
       "title": "ERM System for VDG Solar",
-      "description": "Webapp made for VDG Solar in the field of electrical engineering. The project is a web application that allows you to manage and monitor the electrical equipment of the company. The application is built using Next.js 15 and Sanity. Start as pet project contine as comertial project, in DEVELOPMENT",
+      "description": "Webapp made for VDG Solar in the field of electrical engineering. The project is a web application that allows you to manage and monitor the electrical equipment of the company. The application is built using Next.js 15 and Sanity. Start as pet project continue as commercial project, in DEVELOPMENT",
       "features": [
         "PWA",
         "Database updates Google Sheets or Batch import",
