@@ -13,12 +13,18 @@ import {
 import { headInformation } from './../db/db.json'
 import myPhoto from "./../assets/IMG_20220708_18031022.webp";
 import pdf from './../assets/CV Front End Developer - Oleksandr Dzisiak.pdf'
+import { getViews } from '../api/track-views';
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [viewCount, setViewCount] = useState(0);
 
+  useEffect(() => {
+    const views = getViews();
+    setViewCount(views);
+  }, []);
 
   const downloadButton = buttonPDF();
-
   return (
     <>
       <AnimatePresence>
@@ -138,15 +144,23 @@ const Header = () => {
       </AnimatePresence>
     </>
   );
-
-  function buttonPDF () {
-    return <Button variant="outline" asChild className="justify-start w-full">
+  function buttonPDF() {
+    return (
+      <Button variant="outline" asChild className="justify-start w-full">
+        <a href={pdf} download type="pdf" rel="alternate">
+          <Save className="w-4 h-4 mr-2" />
+          Save CV in PDF ({viewCount} views)
+        </a>
+      </Button>
+    );
+  }
+  
+  return <Button variant="outline" asChild className="justify-start w-full">
       <a href={pdf} download type="pdf" rel="alternate">
         <Save className="w-4 h-4 mr-2" />
         Save CV in PDF
       </a>
     </Button>;
-  }
 };
 
 export default Header;
