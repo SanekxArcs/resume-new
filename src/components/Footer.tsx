@@ -1,5 +1,4 @@
 import Rodo from "./main/Rodo";
-
 const Footer = () => {
   return (
     <>
