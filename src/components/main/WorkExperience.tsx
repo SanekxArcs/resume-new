@@ -7,7 +7,7 @@ const WorkExperienceElements = workExperience.map((elem, index) => {
  return (
    <li key={index} className={`mb-10 print:mb-5 ml-6`}>
      <span className="absolute z-10 flex items-center justify-center w-6 h-6 rounded-full bg-primary/40 dark:bg-primary -left-3 ring-8 ring-background">
-       <Briefcase className="w-3 h-3" />
+       <Briefcase className="w-3 h-3 text-inherit" />
      </span>
      {elem.jobTitle2 ? (
        <h4 className="sticky flex flex-wrap items-center text-lg font-semibold top-16 text-primary backdrop-blur-md">

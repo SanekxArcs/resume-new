@@ -86,16 +86,7 @@ const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
             <TabsTrigger className="w-full" value="pet">
               Pet-projects
             </TabsTrigger>
-            <TabsTrigger className="w-full" value="all">
-              All
-            </TabsTrigger>
           </TabsList>
-          <TabsContent value="all">
-            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
-              {commercialElement}
-              {petElement}
-            </div>
-          </TabsContent>
           <TabsContent value="Commercial">
             <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 place-items-stretch">
               {commercialElement}

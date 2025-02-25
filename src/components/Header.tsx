@@ -9,7 +9,6 @@ import {
   FileBadge2,
 } from "lucide-react";
 import { Button } from "./ui/button";
-import { ModeToggle } from "./mode-toggle";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,6 +20,7 @@ import {
 import { headInformation } from "@/db/db.json";
 import myPhoto from "@/assets/IMG_20220708_18031022.webp";
 import pdf from "@/assets/CV Front End Developer - Oleksandr Dzisiak.pdf";
+import { ThemeCustomizer } from "./theme-customizer";
 
 interface NavItem {
   href: string;
@@ -93,12 +93,11 @@ const Header = () => {
         <ProfileSection />
 
         <div className="flex items-center gap-2 w-fit">
-          <div className="hidden sm:block">
-            <DownloadButton />
+          <div>
+            <ThemeCustomizer />
           </div>
-          <div className="hidden sm:block">
-            <ModeToggle />
-          </div>
+            
+          
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -126,18 +125,9 @@ const Header = () => {
                 </DropdownMenuItem>
               ))}
 
-              <DropdownMenuItem className="sm:hidden">
+              <DropdownMenuItem>
                 <DownloadButton />
               </DropdownMenuItem>
-
-              <div className="sm:hidden">
-                <DropdownMenuLabel>Settings</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem className="flex w-full gap-2">
-                  <ModeToggle />
-                  Change theme
-                </DropdownMenuItem>
-              </div>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
