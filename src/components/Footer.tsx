@@ -1,5 +1,6 @@
 import Rodo from "./main/Rodo";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <Rodo />
@@ -10,7 +11,7 @@ const Footer = () => {
           Thank you for visiting my page, I am waiting for you to contact
         </p>
         <p>
-          © 2023 Built by&nbsp;
+          © {currentYear} Built by&nbsp;
           <a
             href="https://github.com/SanekxArcs"
             target="_blank"
