@@ -4,7 +4,7 @@ import qrCode from "./../../assets/qr-code.webp";
 const ProfilePhoto = () => {
   return (
     <>
-      <div className="relative mx-auto my-16 transition-all duration-1000 border-4 rounded-full border-primary overflow-clip group w-52 h-52 x-auto lg:my-12 hover:rounded-md bg-gradient-to-br from-primary/40 to-primary/70 print:hidden">
+      <div className="hidden relative mx-auto my-16 transition-all duration-1000 border-4 rounded-full border-primary overflow-clip group w-52 h-52 x-auto lg:my-12 hover:rounded-md bg-gradient-to-br from-primary/40 to-primary/70 print:hidden">
         <img
           className="absolute top-0 left-0 transition-all duration-700 delay-300 opacity-0 w-52 h-52 scale-1 group-hover:opacity-100 group-hover:scale-100"
           src={qrCode}

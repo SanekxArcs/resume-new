@@ -22,7 +22,7 @@ const Aside = () => {
         transition={{ duration: 1 }}
         className="col-span-4 px-4 lg:px-0 lg:pr-10 order-1 lg:order-none"
       >
-        <ProfilePhoto />
+        <ProfilePhoto  />
         <div className="lg:hidden mb-10">
             <MainHead />
             </div>
