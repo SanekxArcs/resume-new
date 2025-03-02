@@ -21,6 +21,7 @@ import { headInformation } from "@/db/db.json";
 import myPhoto from "@/assets/IMG_20220708_18031022.webp";
 // import pdf from "@/assets/CV Front End Developer - Oleksandr Dzisiak.pdf";
 import { ThemeCustomizer } from "./theme-customizer";
+import { TrackingPixel } from "./tracking/TrackingPixel";
 
 interface NavItem {
   href: string;
@@ -73,11 +74,13 @@ const DownloadButton = () => (
 const ProfileSection = () => (
   <div className="flex gap-2">
     <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 border-2 rounded-full border-primary group bg-gradient-to-br from-primary/40 to-primary/70">
+    <TrackingPixel documentId="0">
+    
       <img
         src={myPhoto}
         alt={headInformation.name}
         title="Scan with your Phone and it automatically add my contact to you phone"
-      />
+      /></TrackingPixel>
     </div>
     <div className="flex flex-col items-start justify-center">
       <p className="font-black">{headInformation.name}</p>

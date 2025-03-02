@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { trackDocumentView } from '@/services/tracking';
-import emailImg from '@/assets/at.png';
+
 
 interface TrackingPixelProps {
   documentId: string;
   className?: string;
+  children?: React.ReactNode;
 }
-
-export function TrackingPixel({ documentId, className = '' }: TrackingPixelProps) {
+export function TrackingPixel({ documentId, className = '', children }: TrackingPixelProps) {
   useEffect(() => {
     trackDocumentView(documentId);
   }, [documentId]);
@@ -17,7 +17,7 @@ export function TrackingPixel({ documentId, className = '' }: TrackingPixelProps
     <div
       className={` tracker ${className}`}
     >
-      <img src={emailImg} alt="emailImg" className="w-4 h-4" />
+      {children}
     </div>
   );
 }

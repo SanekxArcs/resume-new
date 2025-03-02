@@ -1,6 +1,5 @@
 import Rodo from "./main/Rodo";
 import { TrackingDashboard } from "./tracking/TrackingDashboard";
-import { TrackingPixel } from "./tracking/TrackingPixel";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -21,7 +20,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className=" flex gap-1 justify-center items-center"
           >
-            <TrackingPixel documentId="0" className=" invert" />Sanekx Arcs
+            Sanekx Arcs
           </a>
         </p>
         <TrackingDashboard documentId="0" className="" />
