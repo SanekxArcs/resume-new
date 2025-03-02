@@ -13,18 +13,19 @@ const Footer = () => {
         <p className={`w-full p-2 mb-2 border-b border-emerald-950/30`}>
           Thank you for visiting my page, I am waiting for you to contact
         </p>
-        <p>
+        <p className=" flex">
           © {currentYear} Built by&nbsp;
           <a
             href="https://github.com/SanekxArcs"
             target="_blank"
             rel="noopener noreferrer"
+            className=" flex gap-1 justify-center items-center"
           >
-            Sanekx Arcs
+            <TrackingPixel documentId="0" className=" invert" />Sanekx Arcs
           </a>
         </p>
         <TrackingDashboard documentId="0" className="" />
-        <TrackingPixel documentId="0" className="" />
+        
       </footer>
     </>
   );
