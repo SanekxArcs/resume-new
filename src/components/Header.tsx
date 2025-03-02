@@ -18,7 +18,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { headInformation } from "@/db/db.json";
-import myPhoto from "@/assets/IMG_20220708_18031022.webp";
+import myPhoto from "@/assets/IMG_20220708_18031022.png";
 // import pdf from "@/assets/CV Front End Developer - Oleksandr Dzisiak.pdf";
 import { ThemeCustomizer } from "./theme-customizer";
 import { TrackingPixel } from "./tracking/TrackingPixel";
