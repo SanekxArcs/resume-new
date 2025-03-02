@@ -1,9 +1,12 @@
 import Rodo from "./main/Rodo";
+import { TrackingDashboard } from "./tracking/TrackingDashboard";
+import { TrackingPixel } from "./tracking/TrackingPixel";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
       <Rodo />
+
       <footer
         className={`print:hidden container mx-auto flex flex-col items-center justify-center px-4 py-2 mt-10 text-center rounded-tr-md rounded-tl-md backdrop-blur-md top-2 bg-primary/30 cursor-default select-none`}
       >
@@ -20,9 +23,10 @@ const Footer = () => {
             Sanekx Arcs
           </a>
         </p>
+        <TrackingDashboard documentId="0" className="" />
+        <TrackingPixel documentId="0" className="" />
       </footer>
     </>
   );
 };
-
 export default Footer;
