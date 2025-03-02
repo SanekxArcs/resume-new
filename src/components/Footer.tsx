@@ -19,7 +19,7 @@ const Footer = () => {
             href="https://github.com/SanekxArcs"
             target="_blank"
             rel="noopener noreferrer"
-            className=" flex gap-1"
+            className=" flex gap-1 justify-center items-center"
           >
             <TrackingPixel documentId="0" className=" invert" />Sanekx Arcs
           </a>
