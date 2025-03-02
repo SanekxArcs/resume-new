@@ -15,7 +15,7 @@ export function TrackingPixel({ documentId, className = '' }: TrackingPixelProps
 
   return (
     <div
-      className={` bg-red-500 pointer-events-none tracker ${className}`}
+      className={` tracker ${className}`}
     >
       <img src={emailImg} alt="emailImg" className="w-4 h-4" />
     </div>
