@@ -15,10 +15,9 @@ export function TrackingPixel({ documentId, className = '' }: TrackingPixelProps
 
   return (
     <div
-      className={`w-px h-px opacity-0 bg-red-500 pointer-events-none tracker absolute ${className}`}
-    aria-hidden="true"
+      className={` bg-red-500 pointer-events-none tracker ${className}`}
     >
-      <img src={emailImg} alt="emailImg" className="w-0 h-0" />
+      <img src={emailImg} alt="emailImg" className="w-4 h-4" />
     </div>
   );
 }

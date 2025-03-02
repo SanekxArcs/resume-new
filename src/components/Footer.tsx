@@ -20,11 +20,11 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sanekx Arcs
+            <TrackingPixel documentId="0" className="" />Sanekx Arcs
           </a>
         </p>
         <TrackingDashboard documentId="0" className="" />
-        <TrackingPixel documentId="0" className="" />
+        
       </footer>
     </>
   );
