@@ -58,9 +58,14 @@ const navigationItems: NavItem[] = [
 
 const DownloadButton = () => (
   <Button variant="outline" asChild className="justify-start w-full">
-    <a href={pdf} download type="application/pdf" rel="noopener noreferrer">
+    <a
+      href="https://docs.google.com/document/d/1AtD3nabbCMupe03k914wvlceHTF70_34X5NQDPS3iz4/edit?usp=sharing"
+      download
+      type="application/pdf"
+      rel="noopener noreferrer"
+    >
       <Save className="w-4 h-4 mr-2" />
-      Save CV in PDF
+      Open CV/Resume
     </a>
   </Button>
 );
