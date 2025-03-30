@@ -25,7 +25,7 @@ const MainHead = () => {
             className="justify-start hidden mt-2 print:flex w-fit"
           >
             <a
-              href="https://o-d.netlify.app/"
+              href="https://cv.o-d.dev/"
               target="_blank"
               rel="noopener noreferrer"
               title="Link to my site"

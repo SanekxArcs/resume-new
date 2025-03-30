@@ -107,10 +107,10 @@ const projectsElementsBuild = (projectsArray: WebsiteInfo[]) => {
         asChild
         size="xs"
       >
-        <a href="https://o-d.netlify.app/" title="My web site o-d.netlify.app">
+        <a href="https://cv.o-d.dev/" title="My web site cv.o-d.dev">
           <Link className="w-4 h-4 mr-2" />
           Link to see all commercial and pet projects:&nbsp;
-          <span className="select-all">o-d.netlify.app</span>
+          <span className="select-all">cv.o-d.dev</span>
         </a>
       </Button>
     </section>
