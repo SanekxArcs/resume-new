@@ -124,7 +124,7 @@
         "Sanity",
         "Google API"
       ],
-      "url": "https://github.com/SanekxArcs/VDGapp/tree/main"
+      "url": "https://vdg-erm.o-d.dev"
     },
     {
       "title": "TunerFest",
@@ -146,7 +146,7 @@
         "Tailwind CSS",
         "Vite"
       ],
-      "url": "https://tunes-motorfest.netlify.app/"
+      "url": "https://motorfest-pro-settings.o-d.dev"
     },
     {
       "title": "Book Database Website",
@@ -166,7 +166,7 @@
         "Tailwind CSS",
         "Vite"
       ],
-      "url": "https://demo-book-list.netlify.app/"
+      "url": "https://book-list.o-d.dev/"
     },
     {
       "title": "Startupz Portfolio",
@@ -176,28 +176,28 @@
         "Portfolio showcase"
       ],
       "technologies": ["HTML", "CSS", "Tailwind CSS", "React.js", "JavaScript"],
-      "url": "https://starupz.netlify.app/"
+      "url": "https://startupz-t-task.o-d.dev/"
     },
     {
       "title": "Bankist",
       "description": "Portfolio website with animations and a slider, implemented in vanilla JavaScript. Created as a homework assignment for a JavaScript course.",
       "features": ["Animations", "Slider", "Modal window on timer"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://bankist-o-d.netlify.app/"
+      "url": "https://bankist.o-d.dev/"
     },
     {
       "title": "Bankist WebApp Demo",
       "description": "Demo of a banking application website. Users can log in, make transfers, and sort between existing accounts.",
       "features": ["User login (js, 1111)", "Money transfers", "Account sorting"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://bankist-app-o-d.netlify.app/"
+      "url": "https://bankist-app.o-d.dev/"
     },
     {
       "title": "Maply",
       "description": "Service website for storing your favorite spots or bike trips.",
       "features": ["Spot and trip storage", "Local storage for history", "Calculations"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://maply-o-d.netlify.app/"
+      "url": "https://maply.o-d.dev/"
     },
     {
       "title": "Transliteration Plugin",
@@ -208,7 +208,7 @@
         "Google Chrome plugin"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://transliteration-en-to-ua.netlify.app/"
+      "url": "https://github.com/SanekxArcs/keyboard-layout-converter"
     },
     {
       "title": "Employee Accounting App",
@@ -222,14 +222,14 @@
         "Search"
       ],
       "technologies": ["HTML", "CSS", "React.js", "Tailwind CSS", "JavaScript"],
-      "url": "https://app-accounting-employees.netlify.app/"
+      "url": "https://app-accounting-employees.o-d.dev/"
     },
     {
       "title": "Number Guessing Game",
       "description": "A game where you need to guess a number within 20 attempts. Includes a ranking system.",
       "features": ["Number guessing within 20 attempts", "Ranking system", "Fun design"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://game-od.netlify.app/"
+      "url": "https://game-od.o-d.dev/"
     },
     {
       "title": "Dice Rolling Game",
@@ -241,14 +241,14 @@
         "Multiplayer"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://game-dice-od.netlify.app/"
+      "url": "https://game-dice-od.o-d.dev/"
     },
     {
       "title": "Omnifood",
       "description": "A website showcasing healthy eating, built with clean HTML and CSS.",
       "features": ["Healthy eating showcase", "Clean HTML and CSS"],
       "technologies": ["HTML", "CSS"],
-      "url": "https://omnifood-od.netlify.app/"
+      "url": "https://omnifood.o-d.dev/"
     },
     {
       "title": "3D Visualization Portfolio",
@@ -260,56 +260,56 @@
         "Gallery"
       ],
       "technologies": ["HTML", "CSS", "3D modeling software"],
-      "url": "https://od-3d-visualisation.netlify.app/"
+      "url": "https://skethup-portfolio.o-d.dev/"
     },
     {
       "title": "Personal Business Card Website",
       "description": "A business card website with contact information, created using pure JavaScript.",
       "features": ["Contact information", "Pure JavaScript implementation"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://oleksandr-dzisiak.netlify.app/"
+      "url": "https://contact-me-dev.o-d.dev/"
     },
     {
       "title": "QR Code VCard Generator",
       "description": "A website for creating QR codes with contact information.",
       "features": ["QR code generation", "Contact information input"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://qr-coge-vcard-generator.netlify.app/"
+      "url": "https://qr-code.o-d.dev/"
     },
     {
       "title": "Password Generator",
       "description": "A website for creating unique passwords and storing their history.",
       "features": ["Password generation", "Password history storage"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://password-generator-od.netlify.app/"
+      "url": "https://pas-gen.o-d.dev/"
     },
     {
       "title": "Portfolio Testing Website",
       "description": "A portfolio website created for testing one's skills.",
       "features": ["Skill testing", "Portfolio showcase"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://actove-box.netlify.app/"
+      "url": "https://activebox-t-task.o-d.dev/"
     },
     {
       "title": "Portfolio Testing Website 2",
       "description": "A portfolio website created for testing one's skills.",
       "features": ["Skill testing", "Portfolio showcase"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://merx-sa.netlify.app/"
+      "url": "https://merx-t-task.o-d.dev"
     },
     {
       "title": "Skill Testing Website",
       "description": "A website created with the goal of testing one's skills.",
       "features": ["Skill testing"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://mogo-sa.netlify.app/"
+      "url": "https://mogo-sa.o-d.dev/"
     },
     {
       "title": "JavaScript Drum Kit",
       "description": "A website that plays sounds when keys are pressed, created for testing one's skills.",
       "features": ["Sound playback on key press", "Skill testing"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://js-drum-kit-sanekx.netlify.app/"
+      "url": "https://js-drum-kit-sanekx.o-d.dev/"
     },
     {
       "title": "Sushi Shop",
@@ -320,7 +320,7 @@
         "Automatic calculation of items"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://sushi-shop.netlify.app/"
+      "url": "https://sushi-shop.o-d.dev/"
     },
     {
       "title": "Tip Calculator",
@@ -331,35 +331,21 @@
         "Tip calculation"
       ],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://tip-calculator-many-peoples.netlify.app/"
-    },
-    {
-      "title": "Tip Calculation Website",
-      "description": "A website created for a Frontend Mentor challenge.",
-      "features": ["Frontend Mentor challenge project"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://tip-calculation-sa.netlify.app/"
-    },
-    {
-      "title": "Simple To do list",
-      "description": "A very basic notepad with the ability to add or delete notes.",
-      "features": ["Note addition", "Note deletion"],
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://t-d.netlify.app/"
+      "url": "https://tip-calc.o-d.dev/"
     },
     {
       "title": "Test Task",
       "description": "A test task related to my internet shop project.",
       "features": ["Test task assignment"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://moyo-test-task.netlify.app/"
+      "url": "https://moyo-test-task.o-d.dev/"
     },
     {
       "title": "Modal Testing",
       "description": "First testing of modal windows on a webpage.",
       "features": ["Modal window testing"],
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://modal-test-od.netlify.app/"
+      "url": "https://modal-test-od.o-d.dev/"
     },
     {
       "title": "Frontend Mentor Task",
@@ -369,7 +355,7 @@
         "Pixel-perfect design implementation"
       ],
       "technologies": ["HTML", "CSS"],
-      "url": "https://test-card-od.netlify.app/"
+      "url": "https:/product-test-task.o-d.dev/"
     }
   ],
   "commercialProjects": [
@@ -390,7 +376,7 @@
         "Vercel",
         "Sanity"
       ],
-      "url": "https://feigin-pl.vercel.app/"
+      "url": "https://feiginelectric.o-d.dev/"
     },
     {
       "title": "Solar Sense",
@@ -410,7 +396,7 @@
         "React Router",
         "Host LH.pl"
       ],
-      "url": "https://solarsense.netlify.app/"
+      "url": "https://solarsense.o-d.dev/"
     },
     {
       "title": "LIBERTY IMMIGRATION",
@@ -429,7 +415,7 @@
         "JavaScript",
         "Custom Hooks"
       ],
-      "url": "https://l-i.netlify.app/"
+      "url": "https://liberty-immigration.o-d.dev/"
     },
     {
       "title": "UWP Digital",
@@ -444,7 +430,7 @@
         "Modal"
       ],
       "technologies": ["HTML", "Tailwind CSS"],
-      "url": "https://uwp.digital/en"
+      "url": "https://uwp.digital/"
     },
     {
       "title": "Fun Quest",
