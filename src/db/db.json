@@ -131,7 +131,7 @@
       "description": "Website for community of game The Crew MotorFest, made with Militia gaming community",
       "features": [
         "PWA",
-        "Database updates from Sheets",
+        "Database Sanity",
         "Fast search",
         "Save and track used tuning",
         "Design like game menu",
@@ -140,13 +140,11 @@
       ],
       "technologies": [
         "React",
-        "Google API",
         "Zustand",
-        "React Router",
         "Tailwind CSS",
-        "Vite"
+        "next.js"
       ],
-      "url": "https://motorfest-pro-settings.o-d.dev"
+      "url": "https://tunerfest.o-d.dev/"
     },
     {
       "title": "Book Database Website",
