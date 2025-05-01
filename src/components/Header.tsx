@@ -7,6 +7,7 @@ import {
   Save,
   School,
   FileBadge2,
+  LucideBookOpenCheck,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import {
@@ -18,10 +19,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { headInformation } from "@/db/db.json";
-import myPhoto from "@/assets/IMG_20220708_18031022.png";
-// import pdf from "@/assets/CV Front End Developer - Oleksandr Dzisiak.pdf";
+import myPhoto from "@/assets/profile.webp";
 import { ThemeCustomizer } from "./theme-customizer";
-import { TrackingPixel } from "./tracking/TrackingPixel";
 
 interface NavItem {
   href: string;
@@ -57,30 +56,14 @@ const navigationItems: NavItem[] = [
   },
 ];
 
-const DownloadButton = () => (
-  <Button variant="outline" asChild className="justify-start w-full">
-    <a
-      href="https://docs.google.com/document/d/1AtD3nabbCMupe03k914wvlceHTF70_34X5NQDPS3iz4/edit?usp=sharing"
-      download
-      type="application/pdf"
-      rel="noopener noreferrer"
-    >
-      <Save className="w-4 h-4 mr-2" />
-      Open CV/Resume
-    </a>
-  </Button>
-);
-
 const ProfileSection = () => (
   <div className="flex gap-2">
     <div className="w-10 h-10 mx-auto my-16 overflow-hidden transition-all duration-700 border-2 rounded-full border-primary group bg-gradient-to-br from-primary/40 to-primary/70">
-    <TrackingPixel documentId="0">
-    
       <img
         src={myPhoto}
         alt={headInformation.name}
         title="Scan with your Phone and it automatically add my contact to you phone"
-      /></TrackingPixel>
+      />
     </div>
     <div className="flex flex-col items-start justify-center">
       <p className="font-black">{headInformation.name}</p>
@@ -90,6 +73,9 @@ const ProfileSection = () => (
 );
 
 const Header = () => {
+  // Define the path relative to the public directory
+  const cvPath = '/CV Front End Developer - Oleksandr Dzisiak.pdf';
+
   return (
     <AnimatePresence>
       <motion.header
@@ -104,8 +90,6 @@ const Header = () => {
           <div>
             <ThemeCustomizer />
           </div>
-            
-          
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -114,27 +98,47 @@ const Header = () => {
               </Button>
             </DropdownMenuTrigger>
 
-            <DropdownMenuContent>
-              <DropdownMenuLabel>All sections</DropdownMenuLabel>
+            <DropdownMenuContent className="flex flex-col gap-1">
+              <DropdownMenuLabel className="select-none">
+                All sections
+              </DropdownMenuLabel>
               <DropdownMenuSeparator />
 
               {navigationItems.map((item) => (
-                <DropdownMenuItem key={item.href}>
-                  <Button
-                    variant="outline"
-                    asChild
-                    className="justify-start w-full"
-                  >
-                    <a href={item.href}>
-                      {item.icon}
-                      {item.label}
-                    </a>
-                  </Button>
+                <DropdownMenuItem key={item.href} className="p-0 justify-start">
+                  <a href={item.href} className="flex items-start w-full p-2">
+                    {item.icon}
+                    {item.label}
+                  </a>
                 </DropdownMenuItem>
               ))}
-
-              <DropdownMenuItem>
-                <DownloadButton />
+              <DropdownMenuSeparator />
+              <DropdownMenuLabel className="select-none">
+                Resume | CV
+              </DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem className="p-0">
+                <a
+                  href="https://docs.google.com/document/d/1AtD3nabbCMupe03k914wvlceHTF70_34X5NQDPS3iz4/edit?usp=sharing"
+                  download
+                  type="application/pdf"
+                  rel="noopener noreferrer"
+                  className="flex items-start w-full p-2"
+                >
+                  <LucideBookOpenCheck className="w-4 h-4 mr-2" />
+                  Open In Docs
+                </a>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="p-0">
+                <a
+                  href={cvPath} // Update the href to use the public path
+                  download
+                  rel="noopener noreferrer"
+                  className="flex items-start w-full p-2"
+                >
+                  <Save className="w-4 h-4 mr-2" />
+                  Download PDF
+                </a>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

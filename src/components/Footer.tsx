@@ -1,5 +1,4 @@
 import Rodo from "./main/Rodo";
-import { TrackingDashboard } from "./tracking/TrackingDashboard";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -23,8 +22,6 @@ const Footer = () => {
             Sanekx Arcs
           </a>
         </p>
-        <TrackingDashboard documentId="0" className="" />
-        
       </footer>
     </>
   );

@@ -1,6 +1,4 @@
-
 import { motion } from "framer-motion";
-
 
 import Contacts from "./Contacts";
 import TechSkills from "./TechSkills";
@@ -22,12 +20,11 @@ const Aside = () => {
         transition={{ duration: 1 }}
         className="col-span-4 px-4 lg:px-0 lg:pr-10 order-1 lg:order-none"
       >
-        <ProfilePhoto  />
+        <ProfilePhoto />
         <div className="lg:hidden mb-10">
-            <MainHead />
-            </div>
+          <MainHead />
+        </div>
         <div className="sticky flex flex-col gap-5 lg:h-[calc(100vh-5rem)] lg:overflow-y-auto top-20 hover:overflow-y-auto mb-10 lg:mb-0">
-          
           <Contacts />
           <Separator />
           <Links />

@@ -1,5 +1,0 @@
-
-export const SANITY_TOKEN =
-  "sk4EhDvRa3F5c9f6qYf41PlYKZ0ZYEiAFLlVXhyCQPCMnJndXqShI7PbJBkwr6TwBY1wK4gfAWuzA2AIaMNcDnsymKdm6KgTje4m4t0vJ7Q2vOAON8ysKUfReUPRh9OHwivtyQamoVg4do6UTx7fkTKWeRDrqEp0x4m6OLrMErhR1PZAwvdV";
-export const SANITY_PROJECT_ID = 'p1qhynzj';
-export const SANITY_DATASET = 'production';

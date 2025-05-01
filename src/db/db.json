@@ -101,7 +101,7 @@
   "headInformation": {
     "name": "Oleksandr Dzisiak",
     "work": "Frontend developer",
-    "about": "Developer with 2-3 years of experience, a professional with a passion for all the latest technologies to create visually appealing and user-friendly web applications. Specializing in React.js. Looking for a job where I can solve tasks that will help me grow both in the field of development and in the field of communication. Feel free to message me on any of the social platforms I have added in Contacts & Links."
+    "about": "Front-End Developer (3+ years) specializing in building high-performance, responsive web applications with React, JavaScript and TypeScript. I am proficient in CSS, Tailwind CSS, UI component implementation, and the use of ready-made libraries. Headless CMS integration. Focused on delivering efficient, scalable, and detail-driven front-end solutions that improve UX and drive engagement."
   },
   "petProjects": [
     {
@@ -586,35 +586,59 @@
   ],
   "workExperience": [
     {
-      "jobTitle": "Frontend developer | Electrical engineer",
-      "companyName": "Solar Sense Krzysztof Gutter",
-      "location": "Poland, Warsaw",
-      "duration": "03.2023 – 08.2023",
+      "jobTitle": "Full-stack developer",
+      "companyName": "Feigin Electric Sp. z o.o.",
+      "location": "Warsaw",
+      "duration": "Aug 2024 - Feb 2025",
+      "type": "Contract",
       "description": [
-        "Designed and created a multi-page site using React, improving user engagement by 30%.",
-        "Optimized website performance, achieving a 99-page speed test score and improving SEO ranking by 20%.",
-        "Developed a complex calculation tool in Google Sheets to streamline data processing by 50%.",
-        "Created a generator for PDF documents from data and calculations, enhancing reporting efficiency by 40%.",
-        "Executed 3D visualization projects using PV software, reducing project completion time by 25%."
+        "Developed and launched the corporate website using Next.js 15, Tailwind CSS 4.0, and Sanity CMS.",
+        "Integrated Sanity for dynamic content management across product pages, blog, and case studies.",
+        "Created calculation tools to enhance internal workflow efficiency."
       ],
-      "website": "https://solarsense.pl/",
-      "websiteName": "solarsense.pl",
+      "website": "https://feiginelectric.o-d.dev/",
+      "websiteName": "Feigin Electric",
       "print": false
     },
     {
-      "jobTitle": "Frontend developer",
-      "companyName": "Best Solution Eco Sp. z o. o.",
-      "location": "Poland, Warsaw",
-      "duration": "07.2022 – 03.2023",
+      "jobTitle": "Full-stack developer",
+      "companyName": "Maciej Szypszak Investments",
+      "location": "Warsaw",
+      "duration": "Sep 2023 - Jan 2025",
+      "type": "Full-time",
       "description": [
-        "Maintained and updated the website using HTML, CSS, and JavaScript, ensuring efficient functionality and uptime of 99%.",
-        "Identified and fixed bugs using JavaScript and added new features to improve user experience by 15%.",
-        "Ensured cross-browser and device compatibility using responsive design techniques and testing tools.",
-        "Monitored website traffic with Google Analytics, analyzing data to identify and implement improvements that increased traffic by 20%.",
-        "Made updates and changes based on data analysis, enhancing site performance and user engagement by 15%.",
-        "Troubleshot and resolved technical issues promptly, maintaining website uptime and functionality.",
-        "Provided technical support to users, resolving issues and improving user satisfaction ratings by 25%.",
-        "Contributed to developing new features using JavaScript and React, enhancing user experience and functionality."
+        "Engineered a custom Enterprise Resource Management (ERM) system from the ground up.",
+        "Built intuitive and responsive user interfaces using Shadcn UI components, focusing on simplifying data entry and visualization."
+      ],
+      "website": "https://vdg-erm.o-d.dev",
+      "websiteName": "ERM demo",
+      "print": false
+    },
+    {
+      "jobTitle": "Front End developer",
+      "companyName": "Solar Sense Krzysztof Gutter",
+      "location": "Warsaw",
+      "duration": "Apr 2023 - Aug 2023",
+      "type": "Full-time",
+      "description": [
+        "Developed the company's multi-page website using React, focusing on presenting services and project information effectively.",
+        "Engineered a complex calculation tool, leveraging Google Sheets for data management, to streamline data processing.",
+        "Built a PDF generation tool to automatically create customized documents based on processed data and calculations."
+      ],
+      "website": "https://solarsense.pl/",
+      "websiteName": "SolarSense | Calculator PV",
+      "print": false
+    },
+    {
+      "jobTitle": "Front End Developer",
+      "companyName": "Best Solution Eco",
+      "location": "Warsaw",
+      "duration": "Jul 2022 - Mar 2023",
+      "type": "Full-time",
+      "description": [
+        "Managed and enhanced the company's WordPress website using HTML, CSS, and JavaScript, ensuring optimal performance.",
+        "Identified and resolved front end bugs, and implemented new features to improve user experience and site functionality.",
+        "Monitored and analyzed website traffic using Google Analytics, providing insights into user behavior and site performance."
       ],
       "website": "http://bestsolution.eco/",
       "websiteName": "bestsolution.eco",
@@ -634,18 +658,15 @@
       "print": true
     },
     {
-      "jobTitle": "Trainee",
-      "jobTitle2": "Junior Frontend Developer",
-      "companyName": "A&A Web and App solutions",
-      "location": "Ukraine, Kiev",
-      "duration": "01.2019 – 11.2019",
+      "jobTitle": "Junior Front End Developer",
+      "companyName": "A&A Web and App development",
+      "location": "Kiev",
+      "duration": "Jan 2019 - Nov 2019",
+      "type": "Full-time",
       "description": [
-        "Developed and maintained websites using HTML, CSS, and JavaScript, improving load times by 30%.",
-        "Utilized CSS preprocessors (SASS, LESS) to write efficient, maintainable CSS, reducing development time by 20%.",
-        "Conducted thorough testing and debugging across various browsers and devices, ensuring a 95% cross-compatibility rate.",
-        "Optimized websites for performance and SEO, achieving a 90+ PageSpeed score and increasing organic traffic by 25%.",
-        "Collaborated with backend developers to integrate frontend and backend functionalities, enhancing site efficiency by 20%.",
-        "Completed eight projects including an online store, forum, landing pages, and business card sites, receiving positive client feedback."
+        "Developed and maintained multiple client WordPress websites using HTML, CSS, and JavaScript.",
+        "Ensured cross-browser and cross-device compatibility through rigorous testing and debugging.",
+        "Implemented performance and SEO optimizations, resulting in Google PageSpeed scores exceeding more than 90 on all devices."
       ],
       "website": "https://web.archive.org/web/20220530091720/https://a8a.com.ua/",
       "websiteName": "a8a.com.ua",

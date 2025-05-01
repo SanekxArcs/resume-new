@@ -1,4 +1,4 @@
-import myPhoto from "../../assets/IMG_20220708_18031022.webp";
+import myPhoto from "../../assets//ProfilePhoto.webp";
 import qrCode from "./../../assets/qr-code.webp";
 
 const ProfilePhoto = () => {
